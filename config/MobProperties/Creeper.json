@@ -1,0 +1,19 @@
+{
+  "_name": "Creeper",
+  "drops": [
+    {
+      "function": "all",
+      "count": 1,
+      "functions": [
+        {
+          "function": "spawn",
+          "id": "PrimedTnt",
+          "count": "1~3",
+          "stats": []
+        }
+      ]
+    }
+  ],
+  "pre_stats": [],
+  "stats": []
+}

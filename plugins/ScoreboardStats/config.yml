@@ -1,0 +1,46 @@
+#Main configuration
+
+#Compatible mode with other plugins
+compatibilityMode: true
+
+disabled-worlds:
+  - world_nether
+  - city
+
+#This will not count vanished players in the online value
+hide-vanished: true
+
+Scoreboard:
+  Title: '&4&lSTATS'
+  #seconds
+  # For instant updates you can or 1 and it will update every second
+  Update-delay: 10
+  Items:
+    #The Title must have under 48 characters
+    #Title: Type
+    '&aMoney &2&l$': '%money%'
+    '&6Online': '%online%'
+    '&6Kills': '%kills%'
+    '&9Money': '%money%'
+    '&9Power': '%power%'
+    '&9Deaths': '%deaths%'
+
+#Let ScoreboardStats track stats (kills, deaths, mobkills, killstreak) You need no plugin for this
+enable-pvpstats: true
+
+#In minutes
+PvPStats-SaveIntervall: 13
+
+Temp-Scoreboard-enabled: true
+
+Temp-Scoreboard:
+  Title: '&4&lTop Kills'
+  #%mob% | %kills% | %killstreak%
+  Type: '%kills%'
+  Color: '&9'
+  #How many Players would be displayed
+  Items: 5
+  Intervall-show: 15
+  Intervall-disappear: 20
+
+pluginUpdate: false

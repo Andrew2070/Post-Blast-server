@@ -1,0 +1,7 @@
+name: hey_joe
+activeChannel: Global
+channels:
+- Global
+ignores: []
+muted: false
+autojoin: false

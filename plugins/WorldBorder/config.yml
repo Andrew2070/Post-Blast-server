@@ -1,0 +1,62 @@
+cfg-version: 11
+message: '&c[Server]&c You have reached the edge of this world.'
+round-border: false
+debug-mode: false
+whoosh-effect: true
+portal-redirection: true
+knock-back-dist: 10.0
+timer-delay-ticks: 5
+remount-delay-ticks: 0
+dynmap-border-enabled: false
+dynmap-border-message: The border of the world.
+player-killed-bad-spawn: false
+deny-enderpearl: true
+fill-autosave-frequency: 30
+bypass-list-uuids:
+- 287025a5-7810-302f-a8bc-ad982c41dde1
+- 2b881570-19ca-3e20-8185-72102ca5b564
+- ec8c36d7-8495-370e-8a85-ff8cf63fc294
+fill-memory-tolerance: 500
+worlds:
+  SpawnRoom:
+    x: 4.475488245455003
+    z: 3.3198901725997665
+    radiusX: 200
+    radiusZ: 200
+    wrapping: false
+  world:
+    x: 0.0
+    z: 0.0
+    radiusX: 10000
+    radiusZ: 10000
+    wrapping: false
+  Spawn:
+    x: -0.5
+    z: 3.5
+    radiusX: 51
+    radiusZ: 51
+    wrapping: false
+  MultiWorldSpawn:
+    x: 0.6402068208119667
+    z: 3.543169860914209
+    radiusX: 51
+    radiusZ: 51
+    wrapping: false
+  GodWars:
+    x: 0.22486441028636656
+    z: 0.4018096165112157
+    radiusX: 50
+    radiusZ: 50
+    wrapping: false
+  DIM-2547:
+    x: 0.0
+    z: 0.0
+    radiusX: 10000
+    radiusZ: 10000
+    wrapping: false
+  SpawnWorld:
+    x: -205.56764849042128
+    z: 1489.7840272363376
+    radiusX: 15
+    radiusZ: 15
+    wrapping: false

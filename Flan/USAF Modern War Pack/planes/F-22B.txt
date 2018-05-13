@@ -1,0 +1,115 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name Lockheed Martin F-22B Raptor
+ShortName F-22B
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon IconF22B
+Model usafmw.f22b
+Texture F22B
+//Third Person Camera Distance
+CameraDistance 20.0
+//Resting Pitch. Set this so the plane spawns level. It will fall onto its collision boxes automatically, but this lets you start it flat
+RestingPitch 0.0
+HasGear True
+HasWing True
+ModelScale 1
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
+Mode Plane
+//Throttle
+MaxThrottle 8.0
+MaxNegativeThrottle 0.0
+//Yaw modifiers
+TurnLeftSpeed 4
+TurnRightSpeed 4
+//Pitch modifiers
+LookUpSpeed 4
+LookDownSpeed 4
+//Roll modifiers
+RollLeftSpeed 4
+RollRightSpeed 4
+//Drag 1.0 is standard. Modify to make the plane / heli more or less sluggish
+Drag 1.0
+//Lift
+//Lift 2.5
+//Wheels
+NumWheels 3
+WheelPosition 0 -47 -10 -32
+WheelPosition 1 -47 -10 32
+WheelPosition 2 75 -10 0
+WheelSpringStrength 0.125
+//Propeller <ID> <x> <y> <z> <planePart> <recipeItem>
+Propeller 0 54 0 0 core metalPropeller
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Gun
+Secondary Missile
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 2
+ShootDelaySecondary 20
+//Whether to alternate or fire all together
+AlternatePrimary False
+AlternateSecondary False
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary 66 39 22 core ADEN
+ShootPointSecondary 26 16 50 rightWing
+ShootPointSecondary 26 16 62 rightWing
+ShootPointSecondary 1 16 81 rightWing
+ShootPointSecondary 1 16 93 rightWing
+ShootPointSecondary 26 16 -50 leftWing
+ShootPointSecondary 26 16 -62 leftWing
+ShootPointSecondary 1 16 -81 leftWing
+ShootPointSecondary 1 16 -93 leftWing
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 0
+BombSlots 0
+MissileSlots 8
+AllowAllAmmo True
+AddAmmo mk4Rocket
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 6000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Pilot 136 39 0
+Passengers 1
+Passenger 1 101 39 0 core
+// ------------------------------------------------------ Sounds ------------------------------------------------------
+StartSound PlaneA
+StartSoundLength 60
+PropSound PlaneA
+PropSoundLength 47
+ShootSoundPrimary a10shot2
+ShootSoundSecondary RocketFire1
+// ------------------------------------------------------ Recipe ------------------------------------------------------
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts core 1 advancedMetalCockpit
+AddRecipeParts coreWheel 2 wheel
+AddRecipeParts nose 1 metalNose
+AddRecipeParts rightWing 1 metalWingSmall
+AddRecipeParts leftWing 1 metalWingSmall
+AddRecipeParts tail 1 metalTail
+AddRecipeParts rightWingWheel 1 wheel
+AddRecipeParts leftWingWheel 1 wheel
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 5 white
+AddDye 1 gray
+// ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
+SetupPart nose 100 132 8 -19 59 40 36
+SetupPart core 100 -71 8 -19 203 50 36
+SetupPart core 100 -72 8 -36 165 36 72
+SetupPart tail 100 -149 8 -36 77 38 72
+SetupPart leftWing 100 -116 25 -134 132 7 98
+SetupPart rightWing 100 -117 26 36 131 7 98
+CollisionPoint 193 26 0 nose
+CollisionPoint -21 26 0 core
+CollisionPoint -78 25 -135 leftWing
+CollisionPoint -77 25 135 rightWing
+CollisionPoint -128 26 0 tail
+
+BulletDetection 10
+
+
+//Collison Points

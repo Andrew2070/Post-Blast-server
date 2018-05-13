@@ -1,0 +1,47 @@
+{
+  "_name": "Zombie",
+  "drops": [],
+  "pre_stats": [],
+  "stats": [
+		{
+			"function": "equip",
+			"id": "flansmod:juggernautHelmet",
+			"override": true,
+			"slot": 4,
+			"drop_chance": 0
+			},
+			{
+			"function": "equip",
+			"id": "flansmod:spetsnazBody",
+			"override": true,
+			"slot": 3,
+			"drop_chance": 0.0
+			},
+			{
+			"function": "equip",
+			"id": "flansmod:spetsnazPants",
+			"override": true,
+			"slot": 2,
+			"drop_chance": 0.0
+			},
+			{
+			"function": "equip",
+			"id": "flansmod:spetsnazBoots",
+			"override": true,
+			"slot": 1,
+			"drop_chance": 0.0
+			},
+			{
+			"function": "equip",
+			"id": "flansmod:mwKnife",
+			"override": true,
+			"slot": 0,
+			"drop_chance": 0.0
+			},
+			{
+			"function": "modifier",
+			"attribute": "generic.movementSpeed",
+            "value": "0.2"
+		}
+	]
+}

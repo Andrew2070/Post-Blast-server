@@ -1,0 +1,8 @@
+name: DragonArthur
+activeChannel: Global
+channels:
+- Global
+ignores:
+- douchedillion
+muted: false
+autojoin: false

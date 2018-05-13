@@ -1,0 +1,9 @@
+name: Ivor
+activeChannel: Global
+channels:
+- Global
+ignores:
+- douche
+- douchedillion
+muted: false
+autojoin: false

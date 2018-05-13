@@ -1,0 +1,128 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name Fairchild Republic A-10C Thunderbolt II
+ShortName A-10C 
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon IconA10C
+Model usafmw.a10c
+Texture A10C
+//Third Person Camera Distance
+CameraDistance 20.0
+//Resting Pitch. Set this so the plane spawns level. It will fall onto its collision boxes automatically, but this lets you start it flat
+RestingPitch 0.0
+HasGear True
+ModelScale 1
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
+Mode Plane
+//Throttle
+MaxThrottle 7.0
+MaxNegativeThrottle 0.0
+//Yaw modifiers
+TurnLeftSpeed 4
+TurnRightSpeed 4
+//Pitch modifiers
+LookUpSpeed 4
+LookDownSpeed 4
+//Roll modifiers
+RollLeftSpeed 4
+RollRightSpeed 4
+//Drag 1.0 is standard. Modify to make the plane / heli more or less sluggish
+Drag 1.0
+//Lift
+//Lift 2.5
+//Wheels
+NumWheels 0
+WheelSpringStrength 0.125
+//Propeller <ID> <x> <y> <z> <planePart> <recipeItem>
+Propeller 0 54 0 0 core metalPropeller
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Gun
+Secondary Missile
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 2
+ShootDelaySecondary 20
+//Whether to alternate or fire all together
+AlternatePrimary False
+AlternateSecondary False
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary 130 18 -1 nose ADEN
+ShootPointPrimary 130 18 0 nose ADEN
+ShootPointPrimary 130 18 -2 nose ADEN
+ShootPointPrimary 130 16 -2 nose ADEN
+ShootPointPrimary 130 16 1 nose ADEN
+ShootPointPrimary 130 15 0 nose ADEN
+ShootPointPrimary 130 15 -1 nose ADEN
+ShootPointSecondary 35 6 -47 leftWing 
+ShootPointPrimary 23 9 -74 CRV7
+ShootPointSecondary 46 18 -99 leftWing 
+ShootPointSecondary 46 18 -109 leftWing 
+ShootPointSecondary 35 6 47 rightWing 
+ShootPointPrimary 23 9 74 CRV7
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 0
+BombSlots 0
+MissileSlots 3
+AllowAllAmmo False
+AddAmmo AIM9
+AddAmmo maverick
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 6000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Pilot 82 30 0
+Passengers 0
+// ------------------------------------------------------ Sounds ------------------------------------------------------
+StartSound PlaneA
+StartSoundLength 60
+PropSound a10idle2
+PropSoundLength 10
+ShootSoundPrimary a10shot2
+ShootSoundSecondary a10hellFire
+// ------------------------------------------------------ Recipe ------------------------------------------------------
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts core 1 advancedMetalCockpit
+AddRecipeParts coreWheel 2 wheel
+AddRecipeParts nose 1 metalNose
+AddRecipeParts rightWing 1 metalWingSmall
+AddRecipeParts leftWing 1 metalWingSmall
+AddRecipeParts tail 1 metalTail
+AddRecipeParts rightWingWheel 1 wheel
+AddRecipeParts leftWingWheel 1 wheel
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 5 white
+AddDye 1 gray
+// ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
+SetupPart coreWheel 100 75 -10 -3 11 24 5
+SetupPart leftWingWheel 100 -14 -10 -39 14 24 7
+SetupPart rightWingWheel 100 -15 -10 33 14 24 7
+SetupPart leftWing 100 -27 14 -37 50 6 32
+SetupPart leftWing 100 -27 14 -141 50 19 104
+SetupPart rightWing 100 -27 14 5 50 6 32
+SetupPart rightWing 100 -27 14 37 50 19 104
+SetupPart nose 100 104 14 -8 23 25 15
+SetupPart core 100 -105 14 -8 209 38 16
+SetupPart tail 100 -131 14 -8 26 19 16
+SetupPart tail 100 -126 17 -36 33 5 30
+SetupPart tail 100 -126 17 5 33 5 31
+SetupPart tail 100 -128 8 36 38 53 3
+SetupPart tail 100 -128 8 -39 38 53 3
+SetupPart tail 100 -71 26 -33 47 26 25
+SetupPart tail 100 -71 26 9 47 26 25
+CollisionPoint 127 21 0 nose
+CollisionPoint 37 27 0 coreWheel
+CollisionPoint 14 30 140 rightWing
+CollisionPoint 14 30 -140 leftWing
+CollisionPoint -45 30 -21 tail
+CollisionPoint -45 30 21 tail
+CollisionPoint -108 38 37 tail
+CollisionPoint -108 39 -37 tail
+
+BulletDetection 5
+
+
+//Collison Points

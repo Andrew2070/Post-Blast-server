@@ -1,0 +1,102 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name Lockheed Martin SR-91A Aurora 
+ShortName SR-91A
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon IconSR91A
+Model usafmw.sr91a
+Texture SR91A
+//Third Person Camera Distance
+CameraDistance 40.0
+//Resting Pitch. Set this so the plane spawns level. It will fall onto its collision boxes automatically, but this lets you start it flat
+RestingPitch 0
+HasGear True
+ModelScale 1
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
+Mode Plane
+//Throttle
+MaxThrottle 8.0
+MaxNegativeThrottle 0.0
+//Yaw modifiers
+TurnLeftSpeed 5
+TurnRightSpeed 5
+//Pitch modifiers
+LookUpSpeed 5
+LookDownSpeed 5
+//Roll modifiers
+RollLeftSpeed 5
+RollRightSpeed 5
+//Drag 1.0 is standard. Modify to make the plane / heli more or less sluggish
+Drag 1.0
+//Lift
+//Lift 2.5
+NumWheels 4
+WheelPosition 0 -98 -10 -76
+WheelPosition 1 -98 -10 76
+WheelPosition 2 138 -10 7
+WheelPosition 3 138 -10 -7
+WheelSpringStrength 0.125
+//Propeller <ID> <x> <y> <z> <planePart> <recipeItem>
+Propeller 0 54 0 0 core metalPropeller
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary None
+Secondary None
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 1000
+ShootDelaySecondary 1000
+//Whether to alternate or fire all together
+AlternatePrimary False
+AlternateSecondary False
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 5
+BombSlots 0
+MissileSlots 0
+AllowAllAmmo False
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 6000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Pilot 217 53 0
+Passengers 1
+Passenger 1 135 53 0 core
+// ------------------------------------------------------ Sounds ------------------------------------------------------
+StartSound PlaneA
+StartSoundLength 60
+PropSound PlaneB
+PropSoundLength 47
+ShootSoundPrimary M60Shoot
+ShootSoundSecondary RocketFire2
+// ------------------------------------------------------ Recipe ------------------------------------------------------
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts core 1 advancedMetalCockpit
+AddRecipeParts coreWheel 2 wheel
+AddRecipeParts nose 1 metalNose
+AddRecipeParts rightWing 1 metalWingSmall
+AddRecipeParts leftWing 1 metalWingSmall
+AddRecipeParts tail 1 metalTail
+AddRecipeParts rightWingWheel 1 wheel
+AddRecipeParts leftWingWheel 1 wheel
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 5 white
+AddDye 1 gray
+// ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
+SetupPart core 100 -45 12 -11 118 38 22
+SetupPart nose 100 74 15 -11 48 22 22
+SetupPart bay 100 -41 -5 -33 113 42 66
+SetupPart tail 100 -111 7 -42 65 60 85
+SetupPart leftWing 100 -96 14 31 109 4 42
+SetupPart rightWing 100 -96 16 -75 106 2 49
+SetupPart coreWheel 100 53 -10 -6 20 25 12
+SetupPart leftWingWheel 100 -63 -11 -25 26 26 14
+SetupPart rightWingWheel 100 -63 -11 11 26 26 14
+
+BulletDetection 10
+
+
+//Collison Points

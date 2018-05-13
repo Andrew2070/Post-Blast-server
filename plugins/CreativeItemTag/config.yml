@@ -1,0 +1,44 @@
+# default config.yml for CreativeItemTag
+# config version 1.0
+
+#General settings.
+#Minecraft Color and Format Codes: http://minecraft.gamepedia.com/Formatting_codes
+General:
+    #The Creative Tag format. | Supports color and format codes.
+    #The place holder  %Name%  will be replaced by the player name.
+    CreativeTag: '&fSpawned in by: &5%Name%'
+    
+    #Add the tag on spawned items by commands?
+    AddTagWhen:
+         #Add the tag on items spawned by essentials item command: /i or /item  |  true or false
+         itemCmd: true
+    
+    #Should we keep the creative tag when crafting, smelting or brewing?
+    KeepTagWhen:
+        #If a creative spawned item is used to craft something. | true or false
+        Crafting: true
+        #If a creative spawned item is used in a furnace. | true or false
+        Smelting: true
+        #If a creative spawned potion ingredient is used. | true or false
+        Brewing: true
+    
+    #Disabled worlds. In this worlds the creative tag will not be placed on creative items.
+    WorldsDisabled:
+    - creativebuild
+    - creativeplay
+
+#Chat messages.
+ChatMessages:
+    #Chat messages prefix. | Supports color and format codes.
+    #To disable the prefix set it to '' ; Example: prefix: ''
+    prefix: ''
+    
+    #Messages. | Supports color and format codes.
+    creativeItem: '&c[Server&c] &cYou cant use a creative item spawned by someone else!'
+    creativePickup: '&c[Server&c] &cYou cant pickup a creative item spawned by someone else!'
+    configReloadComplete: '&c[Server&c] &aConfig reload complete!'
+    configReloadFailed: '&c[Server&c] &cCould not reload config! Check logs.'
+    noPermission: '&c[Server&c] &cYou do not have permission!'
+    clearTagComplete: '&c[Server&c] &aCreative Item Tag removed!'
+    clearTagFailed: '&c[Server&c] &cCould not find a Creative Item Tag on the item you hold in your hands!'
+    clearNoItem: '&c[Server&c] &cPlace the item in your hand and run the command again!'

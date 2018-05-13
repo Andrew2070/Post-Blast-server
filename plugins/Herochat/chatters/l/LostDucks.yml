@@ -1,0 +1,7 @@
+name: LostDucks
+activeChannel: Global
+channels:
+- Global
+ignores: []
+muted: false
+autojoin: false

@@ -1,0 +1,112 @@
+# # options.debug: must the debug output be printed?
+# # options.difficulty: what is the server diffeculty?
+# # options.locale: what set of lang files must be used, supported: en_US, nl_NL, de_DE, it_IT
+# # spawnGroup: used to set withs worlds have what spawn, difficult to use. see official site for details
+options:
+  debug: false
+  difficulty: NORMAL
+  usecreativemode: false
+  usecreativemodeinv: true
+  blockEnderChestInCrea: false
+  useEndPortalHandler: false
+  useportalhandler: false
+  useWorldSpawnHandler: false
+  useWorldChatSeperator: false
+  craftbukkitHooks: true
+worlds:
+  CastleSpawn:
+    seed: 5305688590875293001
+    worldgen: Plugin
+    options: VoidWorld
+    difficulty: NORMAL
+    autoload: true
+  DIM-1:
+    seed: -6194651617975202138
+    worldgen: Nether
+    options: ''
+    difficulty: EASY
+    autoload: true
+  DIM-100:
+    seed: -7899069635521036761
+    worldgen: UNDERDARK
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  DIM-112:
+    seed: -7899069635521036761
+    worldgen: ENDOFTIME
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  DIM-19:
+    seed: -7899069635521036761
+    worldgen: BEDROCK
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  DIM-37:
+    seed: -7899069635521036761
+    worldgen: DREAMWORLD
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  DIM-38:
+    seed: -7899069635521036761
+    worldgen: TORMENT
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  DIM-39:
+    seed: -7899069635521036761
+    worldgen: MIRROR
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  DIM-42:
+    seed: -7899069635521036761
+    worldgen: OUTER
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  DIM1:
+    seed: 7499381237897444665
+    worldgen: The_End
+    options: ''
+    difficulty: EASY
+    autoload: true
+  DIM223:
+    seed: -7004952241559203379
+    worldgen: VARDA
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  DIM426:
+    seed: -7899069635521036761
+    worldgen: ACHERON
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  GodWars:
+    seed: -2277246035527109786
+    worldgen: Plugin
+    options: VoidWorld
+    difficulty: NORMAL
+    autoload: true
+  MultiWorldSpawn:
+    seed: -4565433896348187305
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  SpawnWorld:
+    seed: 8338815384710040203
+    worldgen: Plugin
+    options: VoidWorld
+    difficulty: NORMAL
+    autoload: true
+  world:
+    seed: -6194651617975202138
+    worldgen: Normal
+    options: ''
+    difficulty: EASY
+    autoload: true

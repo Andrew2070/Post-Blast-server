@@ -1,0 +1,142 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name Boeing B-52H Stratofortress
+ShortName B-52H
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon IconB52H
+Model usafmw.b52h
+Texture B52H
+//Third Person Camera Distance
+CameraDistance 60.0
+//Resting Pitch. Set this so the plane spawns level. It will fall onto its collision boxes automatically, but this lets you start it flat
+RestingPitch 0.0
+HasGear True
+ModelScale 1
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
+Mode Plane
+//Throttle
+MaxThrottle 5.0
+MaxNegativeThrottle 0.0
+//Yaw modifiers
+TurnLeftSpeed 2
+TurnRightSpeed 2
+//Pitch modifiers
+LookUpSpeed 2
+LookDownSpeed 2
+//Roll modifiers
+RollLeftSpeed 2
+RollRightSpeed 2
+//Drag 1.0 is standard. Modify to make the plane / heli more or less sluggish
+Drag 1.0
+//Lift
+//Lift 2.5
+//Wheels
+NumWheels 0
+//Propeller <ID> <x> <y> <z> <planePart> <recipeItem>
+Propeller 0 54 0 0 core metalPropeller
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Bomb
+Secondary Missile
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 2
+ShootDelaySecondary 20
+//Whether to alternate or fire all together
+AlternatePrimary False
+AlternateSecondary True
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear 
+ShootPointPrimary -20 16 10 core
+ShootPointPrimary -40 16 10 core
+ShootPointPrimary 0 16 10 core
+ShootPointPrimary 20 16 10 core 
+ShootPointPrimary 40 16 10 core 
+ShootPointPrimary 60 16 10 core 
+ShootPointPrimary 80 16 10 core 
+ShootPointPrimary 100 16 10 core
+ShootPointPrimary 120 16 10 core
+ShootPointPrimary 140 16 10 core
+ShootPointPrimary 160 16 10 core
+ShootPointPrimary 180 16 10 core
+ShootPointPrimary 200 16 10 core
+ShootPointPrimary 220 16 10 core
+ShootPointPrimary 240 16 10 core
+ShootPointPrimary -20 16 -10 core
+ShootPointPrimary -40 16 -10 core
+ShootPointPrimary 0 16 -10 core
+ShootPointPrimary 20 16 -10 core 
+ShootPointPrimary 40 16 -10 core 
+ShootPointPrimary 60 16 -10 core 
+ShootPointPrimary 80 16 -10 core 
+ShootPointPrimary 100 16 -10 core
+ShootPointPrimary 120 16 -10 core
+ShootPointPrimary 140 16 -10 core
+ShootPointPrimary 160 16 -10 core
+ShootPointPrimary 180 16 -10 core
+ShootPointPrimary 200 16 -10 core
+ShootPointPrimary 220 16 -10 core
+ShootPointPrimary 240 16 -10 core
+ShootPointSecondary 281 56 -120 leftWing 
+ShootPointSecondary 281 56 120 rightWing 
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 0
+BombSlots 35
+MissileSlots 12
+AllowAllAmmo True
+AddAmmo aim7
+AddAmmo aim9
+AddAmmo aim120
+AddAmmo mk82 
+AddAmmo gbu12
+AddAmmo largebomb
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 6000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Pilot 412 69 -13
+Passengers 8
+Passenger 1 412 69 13 core
+Passenger 2 393 69 0 core
+Passenger 3 385 34 16 core
+Passenger 4 385 34 -16 core
+Passenger 5 309 60 9 core
+Passenger 6 309 60 -9 core
+Passenger 7 334 60 20 core
+Passenger 8 334 60 -20 core
+// ------------------------------------------------------ Sounds ------------------------------------------------------
+StartSound PlaneA
+StartSoundLength 60
+PropSound JetEngine2
+PropSoundLength 47
+ShootSoundPrimary bomb
+ShootSoundSecondary RocketFire2
+// ------------------------------------------------------ Recipe ------------------------------------------------------
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts core 1 advancedMetalCockpit
+AddRecipeParts coreWheel 2 wheel
+AddRecipeParts nose 1 metalNose
+AddRecipeParts rightWing 1 metalWingSmall
+AddRecipeParts leftWing 1 metalWingSmall
+AddRecipeParts tail 1 metalTail
+AddRecipeParts rightWingWheel 1 wheel
+AddRecipeParts leftWingWheel 1 wheel
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 5 white
+AddDye 1 gray
+// ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
+SetupPart coreWheel 100 52 -10 -2 19 33 4
+SetupPart rightWingWheel 100 -6 -10 -19 14 33 4
+SetupPart leftWingWheel 100 -6 -10 15 14 33 4
+SetupPart leftWing 100 -39 21 7 81 5 106
+SetupPart rightWing 100 -40 22 -112 82 5 105
+SetupPart nose 100 28 18 -10 56 24 20
+SetupPart core 100 -5 19 -11 33 23 21
+SetupPart tail 100 -94 18 -46 89 55 94
+
+BulletDetection 10
+
+
+//Collison Points

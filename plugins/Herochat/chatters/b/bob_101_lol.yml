@@ -1,0 +1,7 @@
+name: bob_101_lol
+activeChannel: Global
+channels:
+- Global
+ignores: []
+muted: false
+autojoin: false

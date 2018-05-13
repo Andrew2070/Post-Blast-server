@@ -1,0 +1,174 @@
+&c&o[0] Harassing Staff.
+&7 - &61st Offense: &eWarn.
+&7 - &62nd Offense: &eBan 7 days.
+
+&c&o[1] No Hacked Clients:
+&7 -1st offense = 7 day ban.
+&7 -2nd offense = 14 day ban.
+&7 -3rd offense = 21 day ban.
+&7(Includes Use of Botting)
+ 
+&c&o[2] No Bug Abuse/Exploiting Bugs:
+&7 -1st offense = 2 day ban.
+&7 -2nd offense = 7 day ban.
+&7 (Any form(s) of duplication )
+&7 (Glitching out of the Jail Cell)
+&7 (Bypassing Mutes/Punishments)
+&7 (Any form of illegal grief of claimed land).
+&7 (Any damages caused to the protected spawn.)
+ 
+&c&o[3] No Advertising:
+&7 -1st offense = Warning.
+&7 -2nd offense = 1 hour mute.
+&7 -3rd offense = permanent mute
+ 
+&c&o[4] No sale/gifting creative/illegitimate items to members outside of your Faction:
+&7 -1st offense = warning, seizure of item(s), search of claim.
+&7 -2nd offense = ban, determined by # of items.
+&7 -3rd offense = 2 week ban 
+&7 (Not Allowed to give any creative/illegitimate items out of your faction)
+ 
+&c&o[5] No PvPing with creative, god, fly or OP spawned items:
+&7 -1st offense = warning
+&7 -2nd offense = Jailed 30 minutes
+&7 -3rd offense = 1 day ban
+&7 (OP = Anything exceeding natural minecraft enchants.)
+&7 (Includes the same principle for all weapons / armor)
+ 
+&c&o[6] No Using ComputerCraft for the following below:
+&7 -1st offense = seizure of computer/program/warn.
+&7 -2nd offense = 1st offense + 30 minute Jail sentence.
+&7 -3rd offense = 1st offense + a Two Day ban for persistence.
+&7 (Tracking staff members (vanish enabled or not).
+&7 (Theft of intellectual properties, (stealing code/items).
+ 
+&c&o[7] No Excessive Use of Profanity/Swearing/CAPs:
+&7 -1st offense = Warning
+&7 -2nd offense = 5 minute Mute
+&7 -3rd offense = 30 minute mute
+&7 (One-Three words caps are okay, and lawful)
+&7 (Having multiple profane texts is not okay)
+&7 (Punishment for swearing is at staff discretion)
+&7 (We ask you keep in mind the youngsters playing)
+ 
+&c&o[8] No Griefing SafeZone/WarZone Territory:
+&7 -1st offense = 2 day ban
+&7 -2nd offense = 5 day ban
+&7 -3rd offense = 14 day ban
+&7 (Includes everything that changes the environment of the claimed land.)
+&7 (Includes any block, item, action, liquid, that can bypass protection.)
+ 
+&c&o[9] No Insulting Staff.
+&7 -1st offense = warning
+&7 -2nd offense = 24 hour mute
+&7 -3rd offense = permanent mute
+&7 (Includes private messaging using Computers, chat, books, signs.)
+ 
+&c&o[10] No selling server items for in real life money.
+&7 -1st offense = permanent ban
+ 
+&c&o[11] No Abusing Destructive Weapons:
+&7 -1st offense = warning
+&7 -2nd offense = 30m Jail.
+&7 -3rd offense = 2 day ban.
+&7 (This is a offense that is judged by staff online).
+ 
+&c&o[12] No In-Faction Grief:
+&7 -1st offense = warning/kick from town.
+&7 -2nd offense = 2 day ban.
+(You cannot grief your own faction if you are a recruit/member).
+ 
+&c&o [13] No Threatening Server Integrity:
+&7 -1st offense = warning
+&7 -2nd offense = 24 hour jail
+&7 -3rd offense = 3 day ban
+(Includes threatening to DDOS, Grief Spawn, etc.)
+ 
+&c&o[15] No Racist Slurs/Text/content:
+&7 -1st offense = 1 hour mute
+&7 -2nd offense = 24 hour jail
+&7 -3rd offense = 3 day ban
+&7 (Includes content designed by CC/CC Turtles).
+&7 (Includes any offensive structures/displays/text).
+ 
+&c&o[16] No Scamming:
+&7 -1st offense = Jail 30m
+&7 -2nd offense = 2 day ban
+&7 (At staff discretion as to what is/is not scamming)
+&7 (Any form of scamming is unacceptable and punishable by the Staff)
+&7 (Scamming is equal to cheating another player in an agreement made)
+ 
+&c&o[17] Use Common Sense:
+&7 -Punishment dealt with relevancy to the situation.
+&7 Choosing to do stupid actions, to harm the server, offend others or affect gameplay.
+&7 For example, a racist or explicit skin or username or structure created is illegal.
+ 
+&c&o[18] No Impersonating Staff:
+&7 -1st offense = 7d ban
+&7 -2nd offense = permanent
+&7 (This includes using morph)
+&7 (This includes using Sync)
+ 
+&c&o[19] No Abusing Vote Rewards:
+&7 -1st offense = 2 day ban
+&7 -2nd offense = 5 day ban
+&7 -3rd offense = 14 day ban
+&7 (Includes Bug Abuse of gifts given to you for your vote.)
+&7 (Includes abusing the golden bag of holding to duplicate.)
+&7 (Includes abusing the economy, such as duplicating server $.)
+ 
+&c&o[20] No Ban Evasion:
+&7 -1st offense = loss of appeal & ban extension 2 days.
+&7 -2nd offense = loss of appeal & ban extension 5 days.
+&7 -3rd offense = loss of appeal & ban extension 31 days.
+&7 (You are not allowed  to play on an Alt Acc, if your previous Acc is banned.)
+&7 (Ban Bypassing will veto your right to a ban appeal on the forums and hurt.)
+&7 (The ban extension adds to the ban applied, ie 5 days becomes 7 days).
+ 
+&c&o[21] No loopholing:
+&7 -The offense made to be judged by highest rank of staff on the server.
+&7 -Punishment will be applied in manner respective to the rule loopholed.
+&7 (This applies to those that try and fit between the rules to get away with it).
+&7 (Meaning, there is no gray area, either you follow the rules or you don't.)
+&7 (Those that do loop hole will be punished by a GM+ investigation panel).
+&7 (Staff should report loop-hollers to GM+ online, or a GM delegated by one).
+ 
+&c&o[22] No Offensive Content:
+&7 -1st offense = Warn
+&7 -2nd offense = kick
+&7 -3rd offense = 1 Day Ban
+&7 (Staff are entitled to destroy the offensive structures that were created)
+&7 (Basically you are not allowed to have any offensive skin, cape or code)
+&7 (This rule is in place by instruction of PowerWarp, to clear things up)
+&7 (Swastikas, Nude Art, Nude Skins, Offensive Capes, Etc = Illegal)
+ 
+&c&o[23] Restricted Creative Structures:
+&7 -1st offense = warn/destruction of territory.
+&7 -2nd offense = kick/destruction of territory.
+&7 -3rd offense = 1 day ban/destruction of territory.
+&7 (Basically Donors/Staff are not allowed to leave spawned items unclaimed)
+&7 (Claim the area where you have placed spawned items, to avoid punishment)
+&7 (Anyone found responsible for doing this will then be punished accordingly)
+ 
+&c&o[24] Alternate Account Policy:
+-1st offense = Investigation/Warning.
+-2nd offense = Decided by GM+
+&7 (You are not allowed to use fake players to the extent of violating any rules).
+&7 (You are allowed up-to 5 alternate accounts, but a ban means a ban on all).
+&7 (You Are Not Allowed to have any Alternates in your faction!)
+ 
+&c&o[26] Possession of Banned Items:
+&7 -1st offense = warn/confiscation of illegal items.
+&7 -2nd offense = 2 day ban/confiscation of illegal items.
+&7 -3rd offense = 5 day ban/confiscation of illegal items.
+&7 (You are not allowed to sell, gift, create, craft, spawn, or have banned items).
+&7 (This refers to anything that is disabled by the server and/or listed as banned).
+ 
+&c&o[28] No Falsifying Evidence/Refunds:
+&7 -1st offense = 2 day ban
+&7 -2nd offense = 4 day ban
+&7 -3rd offense = 7 day ban
+&7 (Applies in the sense that you cannot fake evidence/screenshots/logs)
+&7 (Any trickery to subdue the staff members is considered scam/illegal)
+
+&4&lRest Of Rules: http://forum.craftersland.net/topic/15551-post-blast-rules-regulations/

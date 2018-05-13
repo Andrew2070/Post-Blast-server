@@ -1,0 +1,41 @@
+# 
+# DirectSupport configuration
+# DirectSupport(ds) was created by: Pqqqqq
+# 
+# tickets: Configuration related to tickets
+#   channel-format: The format for an incoming message in a DirectSupport channel
+#   max-name-size: The maximum size a ticket reason can be
+#   delay-after-cancellation: The delay, in seconds, a player has to wait before creating another ticket after the completion of a previous one
+#   disallow-creation-when-no-ops: Disallow players to create tickets when there is no one in the server to accept them
+# entires-per-page: Configuration related to the amount of entries per page in a command
+#   help-menu: The amount of entries, per page, the help menu (/ds help) has
+#   active-tickets: The amount of entries, per page, the active ticket list (/ds list) has
+#   completed-tickets: The amount of entries, per page, the completed ticket list (/ds done) has
+#   convo-messages: The amount of entries, per page, the conversation viewer (/ds view) has
+# ticket-reminders: Configuration related to repeating constant ticket reminders for mods
+#   enabled: Whether or not ticket reminders are enabled
+#   delay: The delay, in seconds, between each reminder
+# admin-chat-format: The format for the admin chatting command (/ds a)
+# accept-ticket-format: The message a player receives when a moderator accepts their ticket
+# date-format: The format dates are shown (see SimpleDateFormat in java):
+#   European Format: EEEE, dd MMMM yyyy HH:mm:ss
+#   North-American Format: EEEE, MMMM dd, yyyy hh:mm:ss a
+#  
+
+general:
+  tickets:
+    channel-format: '&3[DirectSupport -> &b{OTHER}&3] &b{PLAYER}&f: {MESSAGE}'
+    max-name-size: 50
+    delay-after-cancellation: 10
+    disallow-creation-when-no-ops: true
+  admin-chat-format: '&3[DirectSupport &bMods&3] &b{PLAYER}&f: {MESSAGE}'
+  accept-ticket-format: '&3[DirectSupport] &b{HELPER} &3is now assisting you.'
+  date-format: EEEE, MMMM dd, yyyy hh:mm:ss a
+  entires-per-page:
+    help-menu: 7
+    active-tickets: 7
+    completed-tickets: 7
+    convo-messages: 7
+  ticket-reminders:
+    enabled: true
+    delay: 60

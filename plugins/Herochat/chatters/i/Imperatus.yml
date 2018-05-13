@@ -1,0 +1,10 @@
+name: Imperatus
+activeChannel: Global
+channels:
+- Global
+- Faction
+- Local
+- Staff
+ignores: []
+muted: false
+autojoin: false

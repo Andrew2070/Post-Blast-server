@@ -1,0 +1,8 @@
+name: HaoSs07
+activeChannel: Global
+channels:
+- Global
+- Local
+ignores: []
+muted: false
+autojoin: false

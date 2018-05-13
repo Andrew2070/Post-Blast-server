@@ -1,0 +1,144 @@
+# GlobalMarket config: 1.3.0-12
+storage:
+  type: sqlite
+  mysql_user: root
+  mysql_pass: password
+  mysql_database: market
+  mysql_address: localhost
+  mysql_port: 3306
+multiworld:
+  enable: false
+  links: []
+limits:
+  default:
+    cut: 0.05
+    max_price: 0.0
+    max_item_prices:
+      air:
+        dmg: 0
+        price: 50.0
+    creation_fee: 0.0
+    max_listings: 5
+    expire_time: 168
+    queue_trade_time: 0
+    queue_mail_time: 0
+    allow_creative: false
+    max_mail: 0
+  vip:
+    cut: 0.05
+    max_price: 0.0
+    max_item_prices:
+      air:
+        dmg: 0
+        price: 50.0
+    creation_fee: 0.0
+    max_listings: 7
+    expire_time: 168
+    queue_trade_time: 0
+    queue_mail_time: 0
+    allow_creative: false
+    max_mail: 0
+  premium:
+    cut: 0.05
+    max_price: 0.0
+    max_item_prices:
+      air:
+        dmg: 0
+        price: 50.0
+    creation_fee: 0.0
+    max_listings: 9
+    expire_time: 168
+    queue_trade_time: 0
+    queue_mail_time: 0
+    allow_creative: false
+    max_mail: 0
+  premium+:
+    cut: 0.05
+    max_price: 0.0
+    max_item_prices:
+      air:
+        dmg: 0
+        price: 50.0
+    creation_fee: 0.0
+    max_listings: 10
+    expire_time: 168
+    queue_trade_time: 0
+    queue_mail_time: 0
+    allow_creative: false
+    max_mail: 0
+  sponsor:
+    cut: 0.05
+    max_price: 0.0
+    max_item_prices:
+      air:
+        dmg: 0
+        price: 50.0
+    creation_fee: 0.0
+    max_listings: 15
+    expire_time: 168
+    queue_trade_time: 0
+    queue_mail_time: 0
+    allow_creative: false
+    max_mail: 0
+  merchant:
+    cut: 0.05
+    max_price: 0.0
+    max_item_prices:
+      air:
+        dmg: 0
+        price: 50.0
+    creation_fee: 0.0
+    max_listings: 0
+    expire_time: 0
+    queue_trade_time: 0
+    queue_mail_time: 0
+    allow_creative: false
+    max_mail: 0
+queue:
+  queue_mail_on_buy: true
+  queue_on_cancel: true
+infinite:
+  seller: Server
+  account: ''
+blacklist:
+  as_whitelist: false
+  custom_names: false
+  item_name:
+  - Transaction Log
+  - Market History
+  item_id:
+    '0': 0
+  enchant_id: []
+  lore:
+  - Spawned in
+  use_with_mail: false
+automatic_payments: false
+enable_history: true
+announce_new_listings: true
+stall_radius: 0
+mailbox_radius: 0
+new_mail_notification: true
+new_mail_notification_delay: 10
+enable_metrics: false
+notify_on_update: false
+language_file: en_US.lang
+plugin-channel: world_info
+inform-player: false
+encoding: UTF-8
+stall:
+  SpawnWorld,-330,5,1433: true
+  SpawnWorld,-330,5,1434: true
+  SpawnWorld,-330,5,1435: true
+  SpawnWorld,-329,5,1436: true
+  SpawnWorld,-328,5,1435: true
+  SpawnWorld,-328,5,1434: true
+  SpawnWorld,-328,5,1433: true
+  SpawnWorld,-329,5,1432: true
+  SpawnWorld,-327,5,1430: true
+  SpawnWorld,-326,5,1431: true
+  SpawnWorld,-325,5,1430: true
+  SpawnWorld,-326,5,1429: true
+  SpawnWorld,-326,5,1437: true
+  SpawnWorld,-327,5,1438: true
+  SpawnWorld,-326,5,1439: true
+  SpawnWorld,-325,5,1438: true

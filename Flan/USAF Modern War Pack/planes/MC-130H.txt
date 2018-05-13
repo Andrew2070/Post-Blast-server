@@ -1,0 +1,97 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name Lockheed MC-130H Combat Talon II
+ShortName MC-130H
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon IconMC130H
+Model usafmw.mc130h
+Texture MC130H
+//Third Person Camera Distance
+CameraDistance 45.0
+//Resting Pitch. Set this so the plane spawns level. It will fall onto its collision boxes automatically, but this lets you start it flat
+RestingPitch 0
+HasGear True
+ModelScale 1
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
+Mode Plane
+//Throttle
+MaxThrottle 4.0
+MaxNegativeThrottle 0.0
+//Yaw modifiers
+TurnLeftSpeed 2
+TurnRightSpeed 2
+//Pitch modifiers
+LookUpSpeed 2
+LookDownSpeed 2
+//Roll modifiers
+RollLeftSpeed 2
+RollRightSpeed 2
+//Drag 1.0 is standard. Modify to make the plane / heli more or less sluggish
+Drag 1.0
+//Lift
+//Lift 2.5
+//Wheels
+NumWheels 0
+WheelSpringStrength 0.125
+//Propeller <ID> <x> <y> <z> <planePart> <recipeItem>
+Propeller 0 54 0 0 core metalPropeller
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary None
+Secondary None
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 0
+ShootDelaySecondary 0
+//Whether to alternate or fire all together
+AlternatePrimary False
+AlternateSecondary False
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 30
+BombSlots 0
+MissileSlots 0
+AllowAllAmmo False
+AddAmmo none
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 6000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Pilot 151 20 10
+// ------------------------------------------------------ Sounds ------------------------------------------------------
+StartSound propStart
+StartSoundLength 60
+PropSound propSound
+PropSoundLength 47
+ShootSoundPrimary M60Shoot
+ShootSoundSecondary RocketFire2
+// ------------------------------------------------------ Recipe ------------------------------------------------------
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts core 1 advancedMetalCockpit
+AddRecipeParts coreWheel 2 wheel
+AddRecipeParts nose 1 metalNose
+AddRecipeParts rightWing 1 metalWingSmall
+AddRecipeParts leftWing 1 metalWingSmall
+AddRecipeParts tail 1 metalTail
+AddRecipeParts rightWingWheel 1 wheel
+AddRecipeParts leftWingWheel 1 wheel
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 5 white
+AddDye 1 gray
+// ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
+SetupPart nose 200 170 8 -12 24 24 24
+SetupPart core 600 -94 -2 -31 264 64 62
+SetupPart coreWheel 100 114 -10 -6 16 16 12
+SetupPart leftWingWheel 100 -51 -10 32 44 8 7
+SetupPart rightWingWheel 100 -51 -10 -39 44 8 7
+SetupPart tail 400 -272 -2 -31 178 64 62
+SetupPart rightWing 300 -70 54 -336 80 8 304
+SetupPart leftWing 300 -70 54 31 80 8 304
+
+BulletDetection 10
+
+
+//Collison Points

@@ -1,0 +1,1031 @@
+[21:13:34] [main/INFO] [FML/]: Forge Mod Loader version 7.99.4.1614 for Minecraft 1.7.10 loading
+[21:13:35] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_73, running on Mac OS X:x86_64:10.11.3, installed at /Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre
+[21:13:35] [main/INFO] [STDERR/]: [pw.prok.imagine.ImagineLoadingPlugin:<clinit>:26]: Loading plugin initialized!
+[21:13:35] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:13:35] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:13:35] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:13:35] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:13:35] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:13:37] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:13:37] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:13:39] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:13:39] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[21:13:39] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[21:13:40] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[21:13:48] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[21:13:48] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[21:13:49] [Server thread/INFO] [FML/]: Replaced 184 ore recipies
+[21:13:49] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[21:13:49] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[21:13:49] [Server thread/INFO] [FML/]: Searching /Users/Ali/Desktop/Post Blast/PBServerv3-1.0.0/mods for mods
+[21:13:51] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 4 mods to load
+[21:13:52] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine] at CLIENT
+[21:13:52] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine] at SERVER
+[21:13:52] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[21:13:52] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[21:13:52] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[21:13:52] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[21:13:52] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[21:13:52] [Server thread/INFO] [FML/]: Applying holder lookups
+[21:13:52] [Server thread/INFO] [FML/]: Holder lookups applied
+[21:13:52] [Server thread/INFO] [FML/]: Injecting itemstacks
+[21:13:52] [Server thread/INFO] [FML/]: Itemstack injection complete
+[21:13:53] [Server thread/INFO] [Minecraft/]: This server is running Cauldron version 1.7.10-1614.57 (MC: 1.7.10) (Implementing API version 1.7.10-R0.1-SNAPSHOT)
+[21:13:54] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[21:13:54] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[21:13:55] [Server thread/INFO] [FML/]: Injecting itemstacks
+[21:13:55] [Server thread/INFO] [FML/]: Itemstack injection complete
+[21:13:55] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 4 mods
+[21:13:56] [Server thread/ERROR] [Minecraft/]: Ambiguous plugin name `RemoteToolkitPlugin' for files `plugins/RTKPlugin.jar' and `plugins/MinecraftRKitPlugin.jar' in `plugins'
+[21:13:56] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins/ScoreboardStats.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:196) ~[JavaPluginLoader.class:1.7.10-1614.57]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:133) [SimplePluginManager.class:1.7.10-1614.57]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugins(CraftServer.java:343) [CraftServer.class:1.7.10-1614.57]
+	at net.minecraft.world.storage.SaveHandler.initBukkitData(SaveHandler.java:462) [ayq.class:?]
+	at net.minecraft.world.storage.SaveHandler.func_75757_d(SaveHandler.java:175) [ayq.class:?]
+	at net.minecraft.world.World.<init>(World.java:374) [ahb.class:?]
+	at net.minecraft.world.WorldServer.<init>(WorldServer.java:162) [mt.class:?]
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:375) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:337) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:643) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_73]
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_73]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219) ~[?:1.8.0_73]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149) ~[?:1.8.0_73]
+	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[?:1.8.0_73]
+	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[?:1.8.0_73]
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:184) ~[JavaPluginLoader.class:1.7.10-1614.57]
+	... 10 more
+[21:13:57] [Server thread/INFO] [/]: Mapping loaded 11 packages, 7841 classes, 26711 fields, 53884 methods, flags 1ffa
+[21:13:57] [Server thread/INFO] [/]: Loaded inheritance map of 895 classes
+[21:13:58] [Server thread/INFO] [Minecraft/]: While loading MultiWorld (plugins/multiworld.jar) found old-data folder: plugins/multiworld next to the new one: plugins/MultiWorld
+[21:14:02] [Server thread/INFO] [net.coreprotect.CoreProtect/]: [CoreProtect] Loading CoreProtect v2.10.0
+[21:14:02] [Server thread/INFO] [me.markeh.factions26patches.Factions26Patches/]: [Factions26Patches] Loading Factions26Patches v1.0.0
+[21:14:02] [Server thread/INFO] [com.mythicacraft.voteroulette.VoteRoulette/]: [VoteRoulette] Loading VoteRoulette v2.3.4
+[21:14:02] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Loading WorldEdit v5.6.3
+[21:14:02] [Server thread/INFO] [com.lishid.openinv.OpenInv/]: [OpenInv] Loading OpenInv v2.2.5
+[21:14:02] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Loading Essentials vPre2.14.1.3
+[21:14:02] [Server thread/INFO] [co.ryred.mcrkit.bukkit.plugin.RTKPlugin/]: [RemoteToolkitPlugin] Loading RemoteToolkitPlugin v1.0-SNAPSHOT
+[21:14:02] [Server thread/INFO] [com.chaseoes.voidworld.VoidWorld/]: [VoidWorld] Loading VoidWorld v1.0
+[21:14:02] [Server thread/INFO] [net.craftersland.myiume.randomlocation.RandomLocation/]: [RandomLocationTeleporter] Loading RandomLocationTeleporter v4.0.4
+[21:14:02] [Server thread/INFO] [com.TeamNovus.AutoMessage.AutoMessage/]: [AutoMessage] Loading AutoMessage v2.4.0
+[21:14:02] [Server thread/INFO] [com.rylinaux.plugman.PlugMan/]: [PlugMan] Loading PlugMan v2.1.1
+[21:14:02] [Server thread/INFO] [net.buycraft.Plugin/]: [Buycraft] Loading Buycraft v6.7
+[21:14:02] [Server thread/INFO] [net.craftersland.creativetag.CreativeTag/]: [CreativeItemTag] Loading CreativeItemTag v1.0
+[21:14:02] [Server thread/INFO] [com.wimbli.WorldBorder.WorldBorder/]: [WorldBorder] Loading WorldBorder v1.8.1
+[21:14:02] [Server thread/INFO] [com.vexsoftware.votifier.Votifier/]: [Votifier] Loading Votifier v1.9
+[21:14:02] [Server thread/INFO] [com.comphenix.protocol.ProtocolLibrary/]: [ProtocolLib] Loading ProtocolLib v3.6.4
+[21:14:04] [Server thread/INFO] [com.comphenix.protocol.ProtocolLibrary/]: [ProtocolLib] Falling back to Guava 10 compat
+[21:14:04] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldGuardPlugin/]: [WorldGuard] Loading WorldGuard v6.0.0-beta-02
+[21:14:04] [Server thread/INFO] [com.pqqqqq.directsupport.bukkit.DirectSupportPlugin/]: [DirectSupport] Loading DirectSupport v1.04c
+[21:14:04] [Server thread/INFO] [multiworld.MultiWorldPlugin/]: [MultiWorld] Loading MultiWorld v5.2.8
+[21:14:04] [Server thread/INFO] [skinsrestorer.bukkit.SkinsRestorer/]: [SkinsRestorer] Loading SkinsRestorer v12.5.1
+[21:14:04] [Server thread/INFO] [net.craftersland.pb.spawn.SR/]: [PB-SpawnRestrictions] Loading PB-SpawnRestrictions v1.0.1
+[21:14:04] [Server thread/INFO] [ru.tehkode.permissions.bukkit.PermissionsEx/]: [PermissionsEx] Loading PermissionsEx v1.22.9
+[21:14:04] [Server thread/WARN] [ru.tehkode.permissions.bukkit.PermissionsEx/]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[21:14:04] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Loading Vault v1.2.31-b411
+[21:14:04] [Server thread/INFO] [com.earth2me.essentials.spawn.EssentialsSpawn/]: [EssentialsSpawn] Loading EssentialsSpawn vPre2.14.1.3
+[21:14:04] [Server thread/INFO] [net.craftersland.itemrestrict.ItemRestrict/]: [ItemRestrict] Loading ItemRestrict v2.2.4
+[21:14:04] [Server thread/INFO] [com.massivecraft.massivecore.MassiveCore/]: [MassiveCore] Loading MassiveCore v7.3.0
+[21:14:04] [Server thread/INFO] [com.github.games647.fastlogin.bukkit.FastLoginBukkit/]: [FastLogin] Loading FastLogin v1.7
+[21:14:04] [Server thread/INFO] [com.dthielke.herochat.Herochat/]: [Herochat] Loading Herochat v5.6.7-SNAPSHOT
+[21:14:04] [Server thread/INFO] [fr.xephi.authme.AuthMe/]: [AuthMe] Loading AuthMe v3.4
+[21:14:04] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] Loading HolographicDisplays v2.1.12
+[21:14:04] [Server thread/INFO] [litebans.ab/]: [LiteBans] Loading LiteBans v1.9.17
+[21:14:04] [Server thread/INFO] [me.markeh.massivecoreforgefixes.MassiveCoreForgeFixes/]: [MassiveCoreForgeFixes] Loading MassiveCoreForgeFixes v1.0.0
+[21:14:04] [Server thread/INFO] [com.massivecraft.factions.Factions/]: [Factions] Loading Factions v2.5.0
+[21:14:04] [Server thread/INFO] [com.survivorserver.GlobalMarket.Market/]: [GlobalMarket] Loading GlobalMarket v1.3.0-12
+[21:14:04] [Server thread/INFO] [markehme.factionsplus.FactionsPlus/]: [FactionsPlus] Loading FactionsPlus v0.7.1
+[21:14:04] [Server thread/INFO] [me.NoChance.PvPManager.PvPManager/]: [PvPManager] Loading PvPManager v2.4.4.2
+[21:14:04] [Server thread/INFO] [plus.crates.CratesPlus/]: [CratesPlus] Loading CratesPlus v4.1.1
+[21:14:04] [Server thread/INFO] [com.chaseoes.voidworld.VoidWorld/]: [VoidWorld] Enabling VoidWorld v1.0
+[21:14:04] [Server thread/INFO] [net.craftersland.creativetag.CreativeTag/]: [CreativeItemTag] Enabling CreativeItemTag v1.0
+[21:14:04] [Server thread/INFO] [net.craftersland.creativetag.CreativeTag/]: [CreativeItemTag] Loading CreativeItemTag v1.0...
+[21:14:04] [Server thread/INFO] [net.craftersland.creativetag.CreativeTag/]: [CreativeItemTag] CreativeItemTag has been successfully loaded!
+[21:14:04] [Server thread/INFO] [com.comphenix.protocol.ProtocolLibrary/]: [ProtocolLib] Enabling ProtocolLib v3.6.4
+[21:14:04] [Server thread/INFO] [com.comphenix.protocol.ProtocolLibrary/]: [ProtocolLib] Started structure compiler thread.
+[21:14:04] [Server thread/INFO] [net.craftersland.pb.spawn.SR/]: [PB-SpawnRestrictions] Enabling PB-SpawnRestrictions v1.0.1
+[21:14:04] [Server thread/INFO] [net.craftersland.pb.spawn.SR/]: [PB-SpawnRestrictions] Loading the config file...
+[21:14:04] [Server thread/INFO] [net.craftersland.pb.spawn.SR/]: [PB-SpawnRestrictions] Config loaded successfully!
+[21:14:05] [Server thread/INFO] [net.craftersland.pb.spawn.SR/]: [PB-SpawnRestrictions] PB-SpawnRestrictions loaded successfully!
+[21:14:05] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Enabling Vault v1.2.31-b411
+[21:14:05] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Vault][Economy] Essentials Economy found: Waiting
+[21:14:05] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Vault][Permission] PermissionsEx found: Waiting
+[21:14:05] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Vault][Permission] SuperPermissions loaded as backup permission system.
+[21:14:05] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Vault][Chat] PermissionsEx found: Waiting
+[21:14:06] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Vault] Enabled Version 1.2.31-b411
+[21:14:06] [Server thread/INFO] [com.massivecraft.massivecore.MassiveCore/]: [MassiveCore] Enabling MassiveCore v7.3.0
+[21:14:06] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m=== ENABLE START ===[m
+[21:14:06] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;33;1mLoading Playerdat datas...[m
+[21:14:06] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;33;1mLoading Cachefile datas...[m
+[21:14:06] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;33;1mLoading Onlineplayer datas...[m
+[21:14:06] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;33;1mLoading Registry datas...[m
+[21:14:06] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;33;1mSkipping Dbmojangapi datas since offline mode...[m
+[21:14:06] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;33;1mSaving Cachefile...[m
+[21:14:06] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;33;1mSetup of IdUtil took [0;35;1m66[0;33;1mms.[m
+[21:14:07] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;32;1mActivated [0;33;1mintegration with [0;35;1mProtocolLib[m
+[21:14:07] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;32;1mActivated [0;33;1mintegration with [0;35;1mVault[m
+[21:14:07] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m=== ENABLE [0;32;1mCOMPLETE [0;33;1m(Took [0;35;1m1008ms[0;33;1m) ===[m
+[21:14:07] [Server thread/INFO] [com.github.games647.fastlogin.bukkit.FastLoginBukkit/]: [FastLogin] Enabling FastLogin v1.7
+[21:14:07] [Server thread/WARN] [com.github.games647.fastlogin.bukkit.FastLoginBukkit/]: [FastLogin] Could not save messages.yml to plugins/FastLogin/messages.yml because messages.yml already exists.
+[21:14:18] [Server thread/WARN] [FML/]: =============================================================
+[21:14:18] [Server thread/WARN] [FML/]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[21:14:18] [Server thread/WARN] [FML/]: Offendor: org/sqlite/SQLite.main([Ljava/lang/String;)V
+[21:14:18] [Server thread/WARN] [FML/]: Use FMLCommonHandler.exitJava instead
+[21:14:18] [Server thread/WARN] [FML/]: =============================================================
+[21:14:20] [Server thread/WARN] [FML/]: =============================================================
+[21:14:20] [Server thread/WARN] [FML/]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[21:14:20] [Server thread/WARN] [FML/]: Offendor: org/ibex/nestedvm/RuntimeCompiler.main([Ljava/lang/String;)V
+[21:14:20] [Server thread/WARN] [FML/]: Use FMLCommonHandler.exitJava instead
+[21:14:20] [Server thread/WARN] [FML/]: =============================================================
+[21:14:20] [Server thread/WARN] [FML/]: =============================================================
+[21:14:20] [Server thread/WARN] [FML/]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[21:14:20] [Server thread/WARN] [FML/]: Offendor: org/ibex/nestedvm/RuntimeCompiler.main([Ljava/lang/String;)V
+[21:14:20] [Server thread/WARN] [FML/]: Use FMLCommonHandler.exitJava instead
+[21:14:20] [Server thread/WARN] [FML/]: =============================================================
+[21:14:23] [Server thread/INFO] [FML/]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@5c589549)
+[21:14:23] [Server thread/INFO] [FML/]: Loading dimension 1 (DIM1) (net.minecraft.server.dedicated.DedicatedServer@5c589549)
+[21:14:23] [Server thread/INFO] [FML/]: Loading dimension -1 (DIM-1) (net.minecraft.server.dedicated.DedicatedServer@5c589549)
+[21:14:35] [Server thread/INFO] [net.coreprotect.CoreProtect/]: [CoreProtect] Enabling CoreProtect v2.10.0
+[21:14:35] [Server thread/INFO] [/]: CoreProtect version 2.10.0 is enabled!
+[21:14:35] [Server thread/INFO] [/]: [CoreProtect] Using SQLite for data storage.
+[21:14:35] [Server thread/INFO] [me.markeh.factions26patches.Factions26Patches/]: [Factions26Patches] Enabling Factions26Patches v1.0.0
+[21:14:35] [Server thread/INFO] [me.markeh.factions26patches.Factions26Patches/]: [Factions26Patches] Factions 2.6 Patches in place
+[21:14:35] [Server thread/INFO] [com.mythicacraft.voteroulette.VoteRoulette/]: [VoteRoulette] Enabling VoteRoulette v2.3.4
+[21:14:36] [Server thread/INFO] [/]: [VoteRoulette] Hooked into Votifier!
+[21:14:36] [Server thread/INFO] [/]: [VoteRoulette] Hooked into Vault!
+[21:14:36] [Server thread/INFO] [com.mythicacraft.voteroulette.VoteRoulette/]: [VoteRoulette] Loading all files and data...
+[21:14:36] [Server thread/INFO] [com.mythicacraft.voteroulette.VoteRoulette/]: [VoteRoulette] Setting default command alias: vr
+[21:14:36] [Server thread/INFO] [/]: [VoteRoulette] Added Reward: Money
+[21:14:36] [Server thread/INFO] [/]: [VoteRoulette] Added Milestone: Supporter
+[21:14:36] [Server thread/INFO] [com.mythicacraft.voteroulette.VoteRoulette/]: [VoteRoulette] ...finished loading files and data!
+[21:14:36] [Server thread/WARN] [com.mythicacraft.voteroulette.VoteRoulette/]: [VoteRoulette] Your server is in offline mode but VoteRoulette is set to use UUIDs. Players with illegitimate copies of Minecraft will not get their stats tracked. The use of UUIDs has been automatically disabled. You can set "useUUIDs" to "always" to override this.
+[21:14:36] [Server thread/INFO] [VoteRoulette/]: [VoteRoulette] Enabled!
+[21:14:36] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Enabling WorldEdit v5.6.3
+[21:14:37] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager/]: WEPIF: Using the Bukkit Permissions API.
+[21:14:37] [Server thread/INFO] [com.lishid.openinv.OpenInv/]: [OpenInv] Enabling OpenInv v2.2.5
+[21:14:37] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Enabling Essentials vPre2.14.1.3
+[21:14:37] [Server thread/INFO] [Essentials/]: Bukkit version format changed. Version not checked.
+[21:14:37] [Server thread/INFO] [Essentials/]: 1.7.10-1614.57 (MC: 1.7.10)
+[21:14:37] [Server thread/INFO] [Essentials/]: 1.7.10-R0.1-SNAPSHOT
+[21:14:38] [Server thread/INFO] [Essentials/]: Using locale en_US
+[21:14:38] [Server thread/ERROR] [Essentials/]: §4Unknown item 416 in item-spawn-blacklist list.
+[21:14:38] [Server thread/INFO] [Essentials/]: Using locale en_US
+[21:14:38] [Server thread/INFO] [Minecraft/]: [Vault][Economy] Essentials Economy hooked.
+[21:14:38] [Server thread/INFO] [Essentials/]: Essentials: Using config file enhanced permissions.
+[21:14:38] [Server thread/INFO] [Essentials/]: Permissions listed in as player-commands will be given to all users.
+[21:14:38] [Server thread/INFO] [co.ryred.mcrkit.bukkit.plugin.RTKPlugin/]: [RemoteToolkitPlugin] Enabling RemoteToolkitPlugin v1.0-SNAPSHOT
+[21:14:39] [Server thread/INFO] [co.ryred.mcrkit.bukkit.plugin.RTKPlugin/]: [RemoteToolkitPlugin] Error loading Toolkit plugin properties: java.io.FileNotFoundException: toolkit/remote.properties (No such file or directory)
+[21:14:39] [Server thread/WARN] [/]: java.io.FileNotFoundException: toolkit/remote.properties (No such file or directory)
+[21:14:39] [Server thread/WARN] [/]: 	at java.io.FileInputStream.open0(Native Method)
+[21:14:39] [Server thread/WARN] [/]: 	at java.io.FileInputStream.open(FileInputStream.java:195)
+[21:14:39] [Server thread/WARN] [/]: 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+[21:14:39] [Server thread/WARN] [/]: 	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+[21:14:39] [Server thread/WARN] [/]: 	at co.ryred.mcrkit.bukkit.plugin.RTKPlugin.onEnable(RTKPlugin.java:57)
+[21:14:39] [Server thread/WARN] [/]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:316)
+[21:14:39] [Server thread/WARN] [/]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:368)
+[21:14:39] [Server thread/WARN] [/]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:410)
+[21:14:39] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugin(CraftServer.java:438)
+[21:14:39] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.enablePlugins(CraftServer.java:372)
+[21:14:39] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_71243_i(MinecraftServer.java:519)
+[21:14:39] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_71222_d(MinecraftServer.java:493)
+[21:14:39] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:453)
+[21:14:39] [Server thread/WARN] [/]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:337)
+[21:14:39] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:643)
+[21:14:39] [Server thread/WARN] [/]: 	at java.lang.Thread.run(Thread.java:745)
+[21:14:39] [Server thread/ERROR] [Minecraft/]: Error occurred while enabling RemoteToolkitPlugin v1.0-SNAPSHOT (Is it up to date?)
+java.lang.NullPointerException
+	at co.ryred.mcrkit.bukkit.plugin.RTKEventHandler.<init>(RTKEventHandler.java:36) ~[?:?]
+	at co.ryred.mcrkit.bukkit.plugin.RTKPlugin.onEnable(RTKPlugin.java:64) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:316) ~[JavaPlugin.class:1.7.10-1614.57]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:368) [JavaPluginLoader.class:1.7.10-1614.57]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:410) [SimplePluginManager.class:1.7.10-1614.57]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugin(CraftServer.java:438) [CraftServer.class:1.7.10-1614.57]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.enablePlugins(CraftServer.java:372) [CraftServer.class:1.7.10-1614.57]
+	at net.minecraft.server.MinecraftServer.func_71243_i(MinecraftServer.java:519) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71222_d(MinecraftServer.java:493) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:453) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:337) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:643) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_73]
+[21:14:39] [Server thread/INFO] [net.craftersland.myiume.randomlocation.RandomLocation/]: [RandomLocationTeleporter] Enabling RandomLocationTeleporter v4.0.4
+[21:14:39] [Server thread/INFO] [Minecraft/]: [RandomLocationTeleporter] Version 4.0.4 Has Been Enabled 
+[21:14:39] [Server thread/INFO] [Minecraft/]: [RandomLocationTeleporter] excluded biome one is ocean
+[21:14:39] [Server thread/INFO] [Minecraft/]: [RandomLocationTeleporter] excluded biome two is deep_ocean
+[21:14:39] [Server thread/INFO] [Minecraft/]: [RandomLocationTeleporter] excluded biome three is nothing
+[21:14:39] [Server thread/INFO] [Minecraft/]: [RandomLocationTeleporter] excluded biome four is nothing
+[21:14:39] [Server thread/INFO] [Minecraft/]: [RandomLocationTeleporter] excluded biome five is nothing
+[21:14:39] [Server thread/INFO] [Minecraft/]: [RandomLocationTeleporter] excluded biome six is nothing
+[21:14:39] [Server thread/INFO] [Minecraft/]: [RandomLocationTeleporter] excluded biome seven is nothing
+[21:14:39] [Server thread/INFO] [Minecraft/]: [RandomLocationTeleporter] Config File Succesfully Loaded with 30 as the Cooldown Time
+[21:14:39] [Server thread/INFO] [com.TeamNovus.AutoMessage.AutoMessage/]: [AutoMessage] Enabling AutoMessage v2.4.0
+[21:14:39] [Server thread/INFO] [com.rylinaux.plugman.PlugMan/]: [PlugMan] Enabling PlugMan v2.1.1
+[21:14:39] [Server thread/INFO] [com.rylinaux.plugman.PlugMan/]: [PlugMan] Skipping Metrics.
+[21:14:39] [Server thread/INFO] [net.buycraft.Plugin/]: [Buycraft] Enabling Buycraft v6.7
+[21:14:39] [Server thread/INFO] [net.buycraft.Plugin/]: [Buycraft] Ignoring update due to auto update disabled.
+[21:14:39] [Server thread/INFO] [com.wimbli.WorldBorder.WorldBorder/]: [WorldBorder] Enabling WorldBorder v1.8.1
+[21:14:40] [Server thread/INFO] [com.wimbli.WorldBorder.WorldBorder/]: [WorldBorder] [CONFIG] Using rectangular/square border, knockback of 10.0 blocks, and timer delay of 5.
+[21:14:40] [Server thread/INFO] [com.wimbli.WorldBorder.WorldBorder/]: [WorldBorder] [CONFIG] Border-checking timed task started.
+[21:14:40] [Server thread/INFO] [com.wimbli.WorldBorder.WorldBorder/]: [WorldBorder] [CONFIG] World "SpawnRoom" has border radius 200 at X: 4.5 Z: 3.3
+[21:14:40] [Server thread/INFO] [com.wimbli.WorldBorder.WorldBorder/]: [WorldBorder] [CONFIG] World "world" has border radius 10000 at X: 0.0 Z: 0.0
+[21:14:40] [Server thread/INFO] [com.wimbli.WorldBorder.WorldBorder/]: [WorldBorder] [CONFIG] World "Spawn" has border radius 51 at X: -0.5 Z: 3.5
+[21:14:40] [Server thread/INFO] [com.wimbli.WorldBorder.WorldBorder/]: [WorldBorder] [CONFIG] World "MultiWorldSpawn" has border radius 51 at X: 0.6 Z: 3.5
+[21:14:40] [Server thread/INFO] [com.wimbli.WorldBorder.WorldBorder/]: [WorldBorder] [CONFIG] World "GodWars" has border radius 50 at X: 0.2 Z: 0.4
+[21:14:40] [Server thread/INFO] [com.wimbli.WorldBorder.WorldBorder/]: [WorldBorder] [CONFIG] World "DIM-2547" has border radius 10000 at X: 0.0 Z: 0.0
+[21:14:40] [Server thread/INFO] [com.wimbli.WorldBorder.WorldBorder/]: [WorldBorder] [CONFIG] World "SpawnWorld" has border radius 15 at X: -205.6 Z: 1489.8
+[21:14:40] [Server thread/INFO] [com.wimbli.WorldBorder.WorldBorder/]: [WorldBorder] For reference, the main world's spawn location is at X: 93.0 Y: 64.0 Z: 191.0
+[21:14:40] [Server thread/INFO] [com.vexsoftware.votifier.Votifier/]: [Votifier] Enabling Votifier v1.9
+[21:14:40] [Server thread/INFO] [Votifier/]: [Votifier] Votifier enabled.
+[21:14:40] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldGuardPlugin/]: [WorldGuard] Enabling WorldGuard v6.0.0-beta-02
+[21:14:40] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[21:14:40] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (world) Lighters are PERMITTED.
+[21:14:40] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (world) Lava fire is blocked.
+[21:14:40] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[21:14:40] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] Loaded configuration for world 'world'
+[21:14:40] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (DIM1) TNT ignition is PERMITTED.
+[21:14:40] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (DIM1) Lighters are PERMITTED.
+[21:14:40] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (DIM1) Lava fire is blocked.
+[21:14:40] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (DIM1) Fire spread is UNRESTRICTED.
+[21:14:40] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] Loaded configuration for world 'DIM1'
+[21:14:40] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (DIM-1) TNT ignition is PERMITTED.
+[21:14:40] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (DIM-1) Lighters are PERMITTED.
+[21:14:40] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (DIM-1) Lava fire is blocked.
+[21:14:40] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] (DIM-1) Fire spread is UNRESTRICTED.
+[21:14:40] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldConfiguration/]: [WorldGuard] Loaded configuration for world 'DIM-1'
+[21:14:40] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldGuardPlugin/]: [WorldGuard] Loading region data...
+[21:14:41] [Server thread/INFO] [com.pqqqqq.directsupport.bukkit.DirectSupportPlugin/]: [DirectSupport] Enabling DirectSupport v1.04c
+[21:14:41] [Server thread/INFO] [Minecraft/]: [DirectSupport 1.04c]: Successfully loaded
+[21:14:41] [Server thread/INFO] [multiworld.MultiWorldPlugin/]: [MultiWorld] Enabling MultiWorld v5.2.8
+[21:14:42] [Server thread/WARN] [multiworld.MultiWorldPlugin/]: [MultiWorld] Invalid world: DIM-100
+[21:14:42] [Server thread/WARN] [multiworld.MultiWorldPlugin/]: [MultiWorld] Invalid world: DIM-112
+[21:14:42] [Server thread/WARN] [multiworld.MultiWorldPlugin/]: [MultiWorld] Invalid world: DIM-37
+[21:14:42] [Server thread/WARN] [multiworld.MultiWorldPlugin/]: [MultiWorld] Invalid world: DIM-38
+[21:14:42] [Server thread/WARN] [multiworld.MultiWorldPlugin/]: [MultiWorld] Invalid world: DIM-39
+[21:14:42] [Server thread/WARN] [multiworld.MultiWorldPlugin/]: [MultiWorld] Invalid world: DIM-42
+[21:14:42] [Server thread/WARN] [multiworld.MultiWorldPlugin/]: [MultiWorld] Invalid world: DIM2
+[21:14:42] [Server thread/WARN] [multiworld.MultiWorldPlugin/]: [MultiWorld] Invalid world: DIM223
+[21:14:42] [Server thread/WARN] [multiworld.MultiWorldPlugin/]: [MultiWorld] Invalid world: DIM426
+[21:14:42] [Server thread/INFO] [FML/]: Loading dimension 2 (SpawnWorld) (net.minecraft.server.dedicated.DedicatedServer@5c589549)
+[21:14:42] [Server thread/INFO] [/]: Preparing start region for level 3 (Dimension: 2, Seed: 8338815384710040203)
+[21:14:42] [Server thread/INFO] [multiworld.MultiWorldPlugin/]: [MultiWorld] v5.2.8 enabled.
+[21:14:42] [Server thread/INFO] [skinsrestorer.bukkit.SkinsRestorer/]: [SkinsRestorer] Enabling SkinsRestorer v12.5.1
+[21:14:42] [Server thread/INFO] [/]: [0;32;1mDetected Minecraft [0;33;1mv1_7_R4[0;32;1m, using [0;33;1mSkinFactory_v1_7_R4[m
+[21:14:44] [Server thread/INFO] [/]: [m
+[21:14:44] [Server thread/INFO] [/]: [0;32;1m    +===============+[m
+[21:14:44] [Server thread/INFO] [/]: [0;32;1m    | SkinsRestorer |[m
+[21:14:44] [Server thread/INFO] [/]: [0;32;1m    +===============+[m
+[21:14:44] [Server thread/INFO] [/]: [m
+[21:14:44] [Server thread/INFO] [/]: [0;33;22m    DEVELOPER BUILD[m
+[21:14:44] [Server thread/INFO] [/]: [m
+[21:14:44] [Server thread/INFO] [/]: [0;36;1m    Current version: [0;32;1m12.5.1[m
+[21:14:44] [Server thread/INFO] [/]: [0;33;22m    The latest developer build![m
+[21:14:44] [Server thread/INFO] [/]: [m
+[21:14:44] [Server thread/INFO] [ru.tehkode.permissions.bukkit.PermissionsEx/]: [PermissionsEx] Enabling PermissionsEx v1.22.9
+[21:14:44] [Server thread/INFO] [ru.tehkode.permissions.bukkit.PermissionsEx/]: [PermissionsEx] Initializing file backend
+[21:14:44] [Server thread/INFO] [ru.tehkode.permissions.bukkit.PermissionsEx/]: [PermissionsEx] Permissions file successfully reloaded
+[21:14:44] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager/]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[21:14:44] [Server thread/INFO] [Minecraft/]: [Vault][Permission] PermissionsEx hooked.
+[21:14:44] [Server thread/INFO] [Minecraft/]: [Vault][Chat] PermissionsEx_Chat hooked.
+[21:14:44] [Server thread/INFO] [Essentials/]: Essentials: Using PermissionsEx based permissions.
+[21:14:44] [Server thread/INFO] [com.earth2me.essentials.spawn.EssentialsSpawn/]: [EssentialsSpawn] Enabling EssentialsSpawn vPre2.14.1.3
+[21:14:44] [Server thread/INFO] [net.craftersland.itemrestrict.ItemRestrict/]: [ItemRestrict] Enabling ItemRestrict v2.2.4
+[21:14:45] [Server thread/INFO] [net.craftersland.itemrestrict.ItemRestrict/]: [ItemRestrict] Restrictions enabled on all worlds.
+[21:14:45] [Server thread/INFO] [net.craftersland.itemrestrict.ItemRestrict/]: [ItemRestrict] Brewing restrictions disabled!
+[21:14:45] [Server thread/INFO] [net.craftersland.itemrestrict.ItemRestrict/]: [ItemRestrict] Wearing restrictions disabled!
+[21:14:45] [Server thread/INFO] [net.craftersland.itemrestrict.ItemRestrict/]: [ItemRestrict] Creative restrictions disabled!
+[21:14:45] [Server thread/INFO] [net.craftersland.itemrestrict.ItemRestrict/]: [ItemRestrict] Pickup restrictions disabled!
+[21:14:45] [Server thread/INFO] [net.craftersland.itemrestrict.ItemRestrict/]: [ItemRestrict] Drop restrictions disabled!
+[21:14:45] [Server thread/INFO] [net.craftersland.itemrestrict.ItemRestrict/]: [ItemRestrict] WorldScanner is disabled!
+[21:14:45] [Server thread/INFO] [net.craftersland.itemrestrict.ItemRestrict/]: [ItemRestrict] ItemRestrict has been successfully loaded!
+[21:14:45] [Server thread/INFO] [com.dthielke.herochat.Herochat/]: [Herochat] Enabling Herochat v5.6.7-SNAPSHOT
+[21:14:45] [Server thread/INFO] [Minecraft/]: [Herochat] Saving channels
+[21:14:45] [Server thread/INFO] [Minecraft/]: [Herochat] Save complete
+[21:14:45] [Server thread/INFO] [Minecraft/]: [Herochat] Version 5.6.7-SNAPSHOT is enabled.
+[21:14:45] [Server thread/INFO] [fr.xephi.authme.AuthMe/]: [AuthMe] Enabling AuthMe v3.4
+[21:14:45] [Server thread/INFO] [fr.xephi.authme.AuthMe/]: [AuthMe] Loading Configuration File...
+[21:14:45] [Server thread/INFO] [AuthMe/]: [AuthMe] Set Language: en
+[21:14:46] [Server thread/INFO] [AuthMe/]: [AuthMe] Vault plugin detected, hook with PermissionsEx system
+[21:14:46] [Server thread/INFO] [AuthMe/]: [AuthMe] Hook with Essentials plugin
+[21:14:46] [Server thread/INFO] [AuthMe/]: [AuthMe] Hook with EssentialsSpawn plugin
+[21:14:46] [Server thread/INFO] [AuthMe/]: [AuthMe] LICENSE : This product includes GeoLite data created by MaxMind, available from http://www.maxmind.com
+[21:14:46] [Server thread/INFO] [AuthMe/]: [AuthMe] Authme 3.4 enabled
+[21:14:46] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] Enabling HolographicDisplays v2.1.12
+[21:14:46] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] Trying to enable Cauldron/MCPC+ support...
+[21:14:46] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] Successfully added support for Cauldron/MCPC+!
+[21:14:46] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] Found ProtocolLib, adding support for player relative variables.
+[21:14:47] [Server thread/INFO] [litebans.ab/]: [LiteBans] Enabling LiteBans v1.9.17
+[21:14:47] [Server thread/INFO] [litebans.ab/]: [LiteBans] Loading SQL driver: mysql (com.mysql.jdbc.Driver)
+[21:14:55] [Server thread/ERROR] [litebans.ab/]: [LiteBans] Failed to connect to [jdbc:mysql://62.138.3.148:22000/postBlast] using mysql driver.
+[21:14:55] [Server thread/ERROR] [litebans.ab/]: [LiteBans] Error: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+[21:14:55] [Server thread/ERROR] [litebans.ab/]: [LiteBans] Cause: Access denied for user 'postblast'@'139.190.160.203' (using password: YES)
+[21:14:55] [Server thread/ERROR] [litebans.ab/]: [LiteBans] Access to the database "postBlast" was denied.
+[21:14:55] [Server thread/ERROR] [litebans.ab/]: [LiteBans] Possible solutions:
+[21:14:55] [Server thread/ERROR] [litebans.ab/]: [LiteBans]  - Make sure the database "postBlast" has been created.
+[21:14:55] [Server thread/ERROR] [litebans.ab/]: [LiteBans]  - Your database host may need to allow connections from your server's IP.
+[21:14:55] [Server thread/ERROR] [litebans.ab/]: [LiteBans] Database connectivity issues are not problems with LiteBans!
+[21:14:55] [Server thread/ERROR] [litebans.ab/]: [LiteBans] Please configure: plugins/LiteBans/config.yml
+[21:14:55] [Server thread/ERROR] [litebans.ab/]: [LiteBans] Connection failed.
+[21:14:56] [Server thread/INFO] [litebans.ab/]: [LiteBans] v1.9.17 enabled. Startup took 8442 ms.
+[21:14:56] [Server thread/INFO] [me.markeh.massivecoreforgefixes.MassiveCoreForgeFixes/]: [MassiveCoreForgeFixes] Enabling MassiveCoreForgeFixes v1.0.0
+[21:14:56] [Server thread/INFO] [com.massivecraft.factions.Factions/]: [Factions] Enabling Factions v2.5.0
+[21:14:56] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mFactions 2.5.0[0;36;22m] [0;33;1m=== ENABLE START ===[m
+[21:14:57] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mFactions 2.5.0[0;36;22m] [0;33;1m[0;32;1mActivated [0;33;1mintegration with [0;35;1mHerochat[m
+[21:14:57] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mFactions 2.5.0[0;36;22m] [0;33;1m=== ENABLE [0;32;1mCOMPLETE [0;33;1m(Took [0;35;1m1113ms[0;33;1m) ===[m
+[21:14:57] [Server thread/INFO] [com.survivorserver.GlobalMarket.Market/]: [GlobalMarket] Enabling GlobalMarket v1.3.0-12
+[21:14:57] [Server thread/ERROR] [com.survivorserver.GlobalMarket.Market/]: [GlobalMarket] Error while preparing database:
+[21:14:57] [Server thread/WARN] [/]: java.sql.SQLException: [SQLITE_NOTADB]  File opened that is not a database file (file is encrypted or is not a database)
+[21:14:57] [Server thread/WARN] [/]: 	at org.sqlite.DB.newSQLException(DB.java:383)
+[21:14:57] [Server thread/WARN] [/]: 	at org.sqlite.DB.newSQLException(DB.java:387)
+[21:14:57] [Server thread/WARN] [/]: 	at org.sqlite.DB.throwex(DB.java:374)
+[21:14:57] [Server thread/WARN] [/]: 	at org.sqlite.NestedDB.prepare(NestedDB.java:134)
+[21:14:57] [Server thread/WARN] [/]: 	at org.sqlite.DB.prepare(DB.java:123)
+[21:14:57] [Server thread/WARN] [/]: 	at org.sqlite.PrepStmt.<init>(PrepStmt.java:42)
+[21:14:57] [Server thread/WARN] [/]: 	at org.sqlite.Conn.prepareStatement(Conn.java:404)
+[21:14:57] [Server thread/WARN] [/]: 	at org.sqlite.Conn.prepareStatement(Conn.java:399)
+[21:14:57] [Server thread/WARN] [/]: 	at org.sqlite.Conn.prepareStatement(Conn.java:383)
+[21:14:57] [Server thread/WARN] [/]: 	at com.survivorserver.GlobalMarket.SQL.Database.createStatement(Database.java:111)
+[21:14:57] [Server thread/WARN] [/]: 	at com.survivorserver.GlobalMarket.MarketStorage.loadSchema(MarketStorage.java:68)
+[21:14:57] [Server thread/WARN] [/]: 	at com.survivorserver.GlobalMarket.Market.initializeStorage(Market.java:186)
+[21:14:57] [Server thread/WARN] [/]: 	at com.survivorserver.GlobalMarket.Market.onEnable(Market.java:177)
+[21:14:57] [Server thread/WARN] [/]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:316)
+[21:14:57] [Server thread/WARN] [/]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:368)
+[21:14:57] [Server thread/WARN] [/]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:410)
+[21:14:57] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugin(CraftServer.java:438)
+[21:14:57] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.enablePlugins(CraftServer.java:372)
+[21:14:57] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_71243_i(MinecraftServer.java:519)
+[21:14:57] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_71222_d(MinecraftServer.java:493)
+[21:14:57] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:453)
+[21:14:57] [Server thread/WARN] [/]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:337)
+[21:14:57] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:643)
+[21:14:57] [Server thread/WARN] [/]: 	at java.lang.Thread.run(Thread.java:745)
+[21:14:57] [Server thread/ERROR] [com.survivorserver.GlobalMarket.Market/]: [GlobalMarket] Error while loading:
+[21:14:57] [Server thread/WARN] [/]: java.sql.SQLException: [SQLITE_NOTADB]  File opened that is not a database file (file is encrypted or is not a database)
+[21:14:57] [Server thread/WARN] [/]: 	at org.sqlite.DB.newSQLException(DB.java:383)
+[21:14:57] [Server thread/WARN] [/]: 	at org.sqlite.DB.newSQLException(DB.java:387)
+[21:14:57] [Server thread/WARN] [/]: 	at org.sqlite.DB.throwex(DB.java:374)
+[21:14:57] [Server thread/WARN] [/]: 	at org.sqlite.NestedDB.prepare(NestedDB.java:134)
+[21:14:57] [Server thread/WARN] [/]: 	at org.sqlite.DB.prepare(DB.java:123)
+[21:14:57] [Server thread/WARN] [/]: 	at org.sqlite.PrepStmt.<init>(PrepStmt.java:42)
+[21:14:57] [Server thread/WARN] [/]: 	at org.sqlite.Conn.prepareStatement(Conn.java:404)
+[21:14:57] [Server thread/WARN] [/]: 	at org.sqlite.Conn.prepareStatement(Conn.java:399)
+[21:14:57] [Server thread/WARN] [/]: 	at org.sqlite.Conn.prepareStatement(Conn.java:383)
+[21:14:57] [Server thread/WARN] [/]: 	at com.survivorserver.GlobalMarket.SQL.Database.createStatement(Database.java:111)
+[21:14:57] [Server thread/WARN] [/]: 	at com.survivorserver.GlobalMarket.MarketStorage.loadItems(MarketStorage.java:134)
+[21:14:57] [Server thread/WARN] [/]: 	at com.survivorserver.GlobalMarket.MarketStorage.load(MarketStorage.java:122)
+[21:14:57] [Server thread/WARN] [/]: 	at com.survivorserver.GlobalMarket.Market.initializeStorage(Market.java:187)
+[21:14:57] [Server thread/WARN] [/]: 	at com.survivorserver.GlobalMarket.Market.onEnable(Market.java:177)
+[21:14:57] [Server thread/WARN] [/]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:316)
+[21:14:57] [Server thread/WARN] [/]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:368)
+[21:14:57] [Server thread/WARN] [/]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:410)
+[21:14:57] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugin(CraftServer.java:438)
+[21:14:57] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.enablePlugins(CraftServer.java:372)
+[21:14:57] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_71243_i(MinecraftServer.java:519)
+[21:14:57] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_71222_d(MinecraftServer.java:493)
+[21:14:57] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:453)
+[21:14:57] [Server thread/WARN] [/]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:337)
+[21:14:57] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:643)
+[21:14:57] [Server thread/WARN] [/]: 	at java.lang.Thread.run(Thread.java:745)
+[21:14:57] [Server thread/INFO] [markehme.factionsplus.FactionsPlus/]: [FactionsPlus] Enabling FactionsPlus v0.7.1
+[21:14:57] [Server thread/INFO] [/]: [0;33;22m[FactionsPlus] [mFactions v2.5.0[m
+[21:14:58] [Server thread/INFO] [/]: [0;33;22m[FactionsPlus] [0;31;22m[WARNING]:[mDisguiseCraft, iDisguise, or LibsDisguises integration enabled in config, but none of these plugins are installed![m
+[21:14:59] [Server thread/INFO] [me.NoChance.PvPManager.PvPManager/]: [PvPManager] Enabling PvPManager v2.4.4.2
+[21:14:59] [Server thread/INFO] [me.NoChance.PvPManager.PvPManager/]: [PvPManager] Vault Found! Using it for currency related features
+[21:14:59] [Server thread/INFO] [me.NoChance.PvPManager.PvPManager/]: [PvPManager] WorldGuard Found! Enabling WorldGuard Support
+[21:14:59] [Server thread/INFO] [plus.crates.CratesPlus/]: [CratesPlus] Enabling CratesPlus v4.1.1
+[21:14:59] [Server thread/WARN] [plus.crates.CratesPlus/]: [CratesPlus] CratesPlus does NOT fully support 1.7, if you have issues please report them but I may not look into it!
+[21:14:59] [Server thread/ERROR] [Minecraft/]: Error occurred while enabling CratesPlus v4.1.1 (Is it up to date?)
+java.lang.NoSuchFieldError: BARRIER
+	at plus.crates.Handlers.SettingsHandler.setupSettingsInventory(SettingsHandler.java:53) ~[?:?]
+	at plus.crates.Handlers.SettingsHandler.<init>(SettingsHandler.java:27) ~[?:?]
+	at plus.crates.CratesPlus.onEnable(CratesPlus.java:162) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:316) ~[JavaPlugin.class:1.7.10-1614.57]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:368) [JavaPluginLoader.class:1.7.10-1614.57]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:410) [SimplePluginManager.class:1.7.10-1614.57]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugin(CraftServer.java:438) [CraftServer.class:1.7.10-1614.57]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.enablePlugins(CraftServer.java:372) [CraftServer.class:1.7.10-1614.57]
+	at net.minecraft.server.MinecraftServer.func_71243_i(MinecraftServer.java:519) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71222_d(MinecraftServer.java:493) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:453) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:337) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:643) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_73]
+[21:14:59] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[21:15:00] [Server thread/INFO] [net.buycraft.Plugin/]: [Buycraft] Authenticated with the specified Secret key.
+[21:15:00] [Server thread/INFO] [net.buycraft.Plugin/]: [Buycraft] Plugin is now ready to be used.
+[21:15:00] [Server thread/INFO] [com.github.games647.fastlogin.bukkit.FastLoginBukkit/]: [FastLogin] Hooking into auth plugin: AuthMe
+[21:15:01] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] Found a new version available: v2.2.5
+[21:15:01] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] Download it on Bukkit Dev:
+[21:15:01] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] dev.bukkit.org/bukkit-plugins/holographic-displays
+[21:15:01] [Server thread/INFO] [Minecraft.WorldEdit/]: Accepted EditSessionFactory of type net.coreprotect.worldedit.v5.CoreProtectEditSessionFactoryv5 from net.coreprotect.worldedit.v5
+[21:15:01] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;33;22m============================================[m
+[21:15:01] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;33;1mWe are preparing for Mojangs switch to UUIDs.[m
+[21:15:01] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;33;1mLearn more at: [0;36;1mhttps://forums.bukkit.org/threads/psa-the-switch-to-uuids-potential-plugin-server-breakage.250915/[m
+[21:15:01] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;33;1mLoading Playerdat datas...[m
+[21:15:01] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;33;1mLoading Cachefile datas...[m
+[21:15:01] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;33;1mLoading Onlineplayer datas...[m
+[21:15:01] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;33;1mLoading Registry datas...[m
+[21:15:01] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;33;1mSkipping Dbmojangapi datas since offline mode...[m
+[21:15:01] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;33;1mSaving Cachefile...[m
+[21:15:01] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;33;1mNow updating database for plugins that are ready ...[m
+[21:15:01] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;33;1mPre update [0;35;1mfactions_mplayer[0;33;1m.[m
+[21:15:01] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;33;1mPost update [0;35;1mfactions_mplayer[0;33;1m. Took [0;35;1m1ms[0;33;1m. [0;35;1m0/8 [0;33;1mchanged.[m
+[21:15:01] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;33;1mPre update [0;35;1mfactions_uplayer@default[0;33;1m.[m
+[21:15:01] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;33;1mPost update [0;35;1mfactions_uplayer@default[0;33;1m. Took [0;35;1m1ms[0;33;1m. [0;35;1m0/56 [0;33;1mchanged.[m
+[21:15:01] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;32;1m ... done![m
+[21:15:01] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;33;1m(database saving will now commence which might lock the server for a while)[m
+[21:15:01] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1m[0;33;22m============================================[m
+[21:15:01] [pool-13-thread-2/INFO] [net.buycraft.Plugin/]: [Buycraft] Loaded 0 package(s) into the cache.
+[21:15:01] [Craft Scheduler Thread - 6/INFO] [com.rylinaux.plugman.PlugMan/]: [PlugMan] Updater did not run, it is globally disabled.
+[21:21:31] [Server thread/INFO] [/]: Plugins (37): [0;32;1mCoreProtect[0;37;1m, [0;32;1mFactions26Patches[0;37;1m, [0;32;1mVoteRoulette[0;37;1m, [0;32;1mWorldEdit[0;37;1m, [0;32;1mOpenInv[0;37;1m, [0;32;1mEssentials[0;37;1m, [0;32;1mRemoteToolkitPlugin[0;37;1m, [0;32;1mVoidWorld[0;37;1m, [0;32;1mRandomLocationTeleporter[0;37;1m, [0;32;1mAutoMessage[0;37;1m, [0;32;1mPlugMan[0;37;1m, [0;32;1mBuycraft[0;37;1m, [0;32;1mCreativeItemTag[0;37;1m, [0;32;1mWorldBorder[0;37;1m, [0;32;1mVotifier[0;37;1m, [0;32;1mProtocolLib[0;37;1m, [0;32;1mWorldGuard[0;37;1m, [0;32;1mDirectSupport[0;37;1m, [0;32;1mMultiWorld[0;37;1m, [0;32;1mSkinsRestorer[0;37;1m, [0;32;1mPB-SpawnRestrictions[0;37;1m, [0;32;1mPermissionsEx[0;37;1m, [0;32;1mVault[0;37;1m, [0;32;1mEssentialsSpawn[0;37;1m, [0;32;1mItemRestrict[0;37;1m, [0;32;1mMassiveCore[0;37;1m, [0;32;1mFastLogin[0;37;1m, [0;32;1mHerochat[0;37;1m, [0;32;1mAuthMe[0;37;1m, [0;32;1mHolographicDisplays[0;37;1m, [0;32;1mLiteBans[0;37;1m, [0;32;1mMassiveCoreForgeFixes[0;37;1m, [0;32;1mFactions[0;37;1m, [0;32;1mGlobalMarket[0;37;1m, [0;32;1mFactionsPlus[0;37;1m, [0;32;1mPvPManager[0;37;1m, [0;32;1mCratesPlus[m
+[21:21:41] [Server thread/INFO] [Minecraft/]: CONSOLE issued server command: /help massivecoreforgefixes
+[21:21:41] [Server thread/INFO] [/]: To view help from the console, type ?.[m
+[21:21:47] [Server thread/INFO] [/]: [0;31;1mNo help for massivecoreforgefixes[m
+[21:21:51] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.[m
+[21:21:55] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.[m
+[21:21:56] [Server thread/INFO] [Minecraft/]: CONSOLE issued server command: /help 
+[21:21:56] [Server thread/INFO] [/]: To view help from the console, type ?.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+[21:21:58] [Server thread/INFO] [/]: [0;37;22mUse /help [n] to get page n of help.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mAliases: [0;37;1mLists command aliases[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mAuthMe: [0;37;1mAll commands for AuthMe[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mAutoMessage: [0;37;1mAll commands for AutoMessage[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mBuycraft: [0;37;1mAll commands for Buycraft[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mCoreProtect: [0;37;1mAll commands for CoreProtect[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mCratesPlus: [0;37;1mAll commands for CratesPlus[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mCreativeItemTag: [0;37;1mAll commands for CreativeItemTag[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mDirectSupport: [0;37;1mAll commands for DirectSupport[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mEssentials: [0;37;1mAll commands for Essentials[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mEssentialsSpawn: [0;37;1mAll commands for EssentialsSpawn[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mFastLogin: [0;37;1mAll commands for FastLogin[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mGlobalMarket: [0;37;1mAll commands for GlobalMarket[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mHerochat: [0;37;1mAll commands for Herochat[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mHolographicDisplays: [0;37;1mAll commands for HolographicDisplays[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mItemRestrict: [0;37;1mAll commands for ItemRestrict[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mLiteBans: [0;37;1mAll commands for LiteBans[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mMinecraft: [0;37;1mAll commands for Minecraft[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mMultiWorld: [0;37;1mAll commands for MultiWorld[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mOpenInv: [0;37;1mAll commands for OpenInv[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mPB-SpawnRestrictions: [0;37;1mAll commands for PB-SpawnRestrictions[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mPermissionsEx: [0;37;1mAll commands for PermissionsEx[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mPlugMan: [0;37;1mAll commands for PlugMan[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mProtocolLib: [0;37;1mAll commands for ProtocolLib[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mPvPManager: [0;37;1mAll commands for PvPManager[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mRandomLocationTeleporter: [0;37;1mAll commands for RandomLocationTeleporter[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mRemoteToolkitPlugin: [0;37;1mAll commands for RemoteToolkitPlugin[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mSkinsRestorer: [0;37;1mAll commands for SkinsRestorer[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mVault: [0;37;1mAll commands for Vault[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mVoteRoulette: [0;37;1mAll commands for VoteRoulette[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mWorldBorder: [0;37;1mAll commands for WorldBorder[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mWorldEdit: [0;37;1mAll commands for WorldEdit[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22mWorldGuard: [0;37;1mAll commands for WorldGuard[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/.s: [0;37;1mExecute last CraftScript[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//: [0;37;1mToggle the super pickaxe pickaxe function[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//center: [0;37;1mSet the center block(s)[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//chunk: [0;37;1mSet the selection to your current chunk.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//clearhistory: [0;37;1mClear your history[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//contract: [0;37;1mContract the selection area[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//copy: [0;37;1mCopy the selection to the clipboard[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//count: [0;37;1mCounts the number of a certain type of block[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//curve: [0;37;1mDraws a spline through selected points[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//cut: [0;37;1mCut the selection to the clipboard[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//cyl: [0;37;1mGenerates a cylinder.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//deform: [0;37;1mDeforms a selected region with an expression[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//desel: [0;37;1mDeselect the current selection[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//distr: [0;37;1mGet the distribution of blocks in the selection[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//drain: [0;37;1mDrain a pool[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//ex: [0;37;1mExtinguish nearby fire[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//expand: [0;37;1mExpand the selection area[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//faces: [0;37;1mBuild the walls, ceiling, and floor of a selection[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//fast: [0;37;1mToggle fast mode[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//fill: [0;37;1mFill a hole[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//fillr: [0;37;1mFill a hole recursively[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//fixlava: [0;37;1mFix lava to be stationary[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//fixwater: [0;37;1mFix water to be stationary[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//flip: [0;37;1mFlip the contents of the clipboard.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//flora: [0;37;1mMake flora within the region[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//forest: [0;37;1mMake a forest within the region[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//generate: [0;37;1mGenerates a shape according to a formula.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//generatebiome: [0;37;1mSets biome according to a formula.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//gmask: [0;37;1mSet the global mask[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//green: [0;37;1mGreens the area[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//hcyl: [0;37;1mGenerates a hollow cylinder.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//help: [0;37;1mDisplays help for the given command or lists all commands.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//hollow: [0;37;1mHollows out the object contained in this selection[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//hpos1: [0;37;1mSet position 1 to targeted block[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//hpos2: [0;37;1mSet position 2 to targeted block[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//hpyramid: [0;37;1mGenerate a hollow pyramid[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//hsphere: [0;37;1mGenerates a hollow sphere.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//inset: [0;37;1mInset the selection area[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//limit: [0;37;1mModify block change limit[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//line: [0;37;1mDraws a line segment between cuboid selection corners[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//load: [0;37;1mLoad a schematic into your clipboard[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//move: [0;37;1mMove the contents of the selection[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//naturalize: [0;37;1m3 layers of dirt on top then rock below[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//outset: [0;37;1mOutset the selection area[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//overlay: [0;37;1mSet a block on top of blocks in the region[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//paste: [0;37;1mPaste the clipboard's contents[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//pos1: [0;37;1mSet position 1[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//pos2: [0;37;1mSet position 2[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//pyramid: [0;37;1mGenerate a filled pyramid[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//redo: [0;37;1mRedoes the last action (from history)[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//regen: [0;37;1mRegenerates the contents of the selection[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//removeabove: [0;37;1mRemove blocks above your head.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//removebelow: [0;37;1mRemove blocks below you.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//removenear: [0;37;1mRemove blocks near you.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//replace: [0;37;1mReplace all blocks in the selection with another[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//replacenear: [0;37;1mReplace nearby blocks[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//rotate: [0;37;1mRotate the contents of the clipboard[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//save: [0;37;1mSave a schematic into your clipboard[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//schematic: [0;37;1mSchematic-related commands[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//searchitem: [0;37;1mSearch for an item[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//sel: [0;37;1mChoose a region selector[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//set: [0;37;1mSet all the blocks inside the selection to a block[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//setbiome: [0;37;1mSets the biome of the player's current block or region.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//shift: [0;37;1mShift the selection area[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//size: [0;37;1mGet information about the selection[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//smooth: [0;37;1mSmooth the elevation in the selection[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//snow: [0;37;1mSimulates snow[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//sphere: [0;37;1mGenerates a filled sphere.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//stack: [0;37;1mRepeat the contents of the selection[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//thaw: [0;37;1mThaws the area[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//toggleplace: [0;37;1mSwitch between your position and pos1 for placement[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//undo: [0;37;1mUndoes the last action[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//walls: [0;37;1mBuild the four sides of the selection[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m//wand: [0;37;1mGet the wand object[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/achievement: [0;37;1mGives the specified player an achievement or changes a statistic value. Use '*' to give all achievements.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/afk: [0;37;1mMarks you as away-from-keyboard.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/allowfire: [0;37;1m[<world>] - Allows all fire spread temporarily[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/antioch: [0;37;1mA little surprise for operators.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/anychest: [0;37;1mToggle anychest function, which allows opening of blocked chests.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/ascend: [0;37;1mGo up a floor[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/authme: [0;37;1mAuthMe op commands[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/automessage: [0;37;1mMain command for all AutoMessage commands[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/back: [0;37;1mTeleports you to your location prior to tp/spawn/warp.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/backup: [0;37;1mRuns the backup if configured.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/balance: [0;37;1mStates the current balance of a player.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/balancetop: [0;37;1mGets the top balance values.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/ban: [0;37;1mBans a player.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/ban-ip: [0;37;1mPrevents the specified IP address from using this server[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/banip: [0;37;1mBans an IP address.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/banlist: [0;37;1mShows a list of active bans.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/bigtree: [0;37;1mSpawn a big tree where you are looking.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/biomeinfo: [0;37;1mGet the biome of the targeted block.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/biomelist: [0;37;1mGets all biomes available.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/book: [0;37;1mAllows reopening and editing of sealed books.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/break: [0;37;1mBreaks the block you are looking at.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/broadcast: [0;37;1mBroadcasts a message to the entire server.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/brush: [0;37;1mBrush tool[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/bukkit:ban: [0;37;1mPrevents the specified player from using this server[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/bukkit:banlist: [0;37;1mView all players banned from this server[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/bukkit:clear: [0;37;1mClears the player's inventory. Can specify item and data filters too.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/bukkit:enchant: [0;37;1mAdds enchantments to the item the player is currently holding. Specify 0 for the level to remove an enchantment. Specify force to ignore normal enchantment restrictions[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/bukkit:gamemode: [0;37;1mChanges the player to a specific game mode[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/bukkit:give: [0;37;1mGives the specified player a certain amount of items[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/bukkit:help: [0;37;1mShows the help menu[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/bukkit:kick: [0;37;1mRemoves the specified player from the server[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/bukkit:kill: [0;37;1mCommits suicide, only usable as a player[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/bukkit:list: [0;37;1mLists all online players[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/bukkit:me: [0;37;1mPerforms the specified action in chat[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/bukkit:pardon: [0;37;1mAllows the specified player to use this server[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/bukkit:tell: [0;37;1mSends a private message to the given player[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/bukkit:time: [0;37;1mChanges the time on each world[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/bukkit:tp: [0;37;1mTeleports the given player (or yourself) to another player or coordinates[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/bukkit:weather: [0;37;1mChanges the weather[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/bukkit:xp: [0;37;1mGives the specified player a certain amount of experience. Specify <amount>L to give levels instead, with a negative amount resulting in taking levels.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/burn: [0;37;1mSet a player on fire.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/butcher: [0;37;1mKill all or nearby mobs[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/buycraft: [0;37;1m[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/buysign: [0;37;1m[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/captcha: [0;37;1mCaptcha[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/cauldron: [0;37;1mToggle certain Cauldron options[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/cauldron_e: [0;37;1mToggle certain Entity options[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/cauldron_te: [0;37;1mToggle certain TileEntity options[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/ceil: [0;37;1mGo to the celing[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/changepassword: [0;37;1mChange password of a account[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/checkban: [0;37;1mChecks if the target is banned.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/chunkinfo: [0;37;1mGet information about the chunk that you are inside[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/clearchat: [0;37;1mClears chat.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/clearclipboard: [0;37;1mClear your clipboard[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/clearinventory: [0;37;1mClear all items in your inventory.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/co: [0;37;1mUtilize the plugin[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/compass: [0;37;1mDescribes your current bearing.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/condense: [0;37;1mCondenses items into a more compact blocks.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/core: [0;37;1mUtilize the plugin[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/coreprotect: [0;37;1mUtilize the plugin[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/cracked: [0;37;1mLabel the invoker or the player specified as cracked if he was marked premium before[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/crate: [0;37;1mMain CratesPlus command[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/creativetag: [0;37;1mMain command[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/cs: [0;37;1mExecute a CraftScript[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/customtext: [0;37;1mAllows you to create custom text commands.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/cycler: [0;37;1mBlock data cycler tool[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/defaultgamemode: [0;37;1mSet the default gamemode[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/delchunks: [0;37;1mDelete chunks that your selection includes[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/delhome: [0;37;1mRemoves a home.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/deljail: [0;37;1mRemoves a jail.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/deltree: [0;37;1mFloating tree remover tool[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/delwarp: [0;37;1mDeletes the specified warp.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/demote: [0;37;1mPermission ladder demotion command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/deop: [0;37;1mTakes the specified player's operator status[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/depth: [0;37;1mStates current depth, relative to sea level.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/descend: [0;37;1mGo down a floor[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/difficulty: [0;37;1mSets the game difficulty[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/ds: [0;37;1mThe main plugin support command[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/dupeip: [0;37;1mDisplays all players sharing an IP address.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/ec: [0;37;1m[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/eco: [0;37;1mManages the server economy.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/effect: [0;37;1mAdds/Removes effects on players[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/email: [0;37;1mAdd Email or recover password[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/enchant: [0;37;1mEnchants the item the user is holding.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/enderchest: [0;37;1mLets you see inside an enderchest.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/essentials: [0;37;1mReloads essentials.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/essentials:info: [0;37;1mShows information set by the server owner.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/essentials:remove: [0;37;1mRemoves entities in your world.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/essentials:tree: [0;37;1mSpawn a tree where you are looking.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/exp: [0;37;1mGive, set or look at a players exp.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/ext: [0;37;1mExtinguish players.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/farwand: [0;37;1mWand at a distance tool[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/fastlogin: [0;37;1mLabel the invoker as premium[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/feed: [0;37;1mSatisfy the hunger.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/filter: [0;37;1mAdd or remove programmable filters to the packet listeners.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/fireball: [0;37;1mThrow a fireball.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/firework: [0;37;1mAllows you to modify a stack of fireworks.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/floodfill: [0;37;1mFlood fill tool[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/fly: [0;37;1mTake off, and soar![m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/forestgen: [0;37;1mGenerate a forest[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/gamemode: [0;37;1mChange player gamemode.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/gamerule: [0;37;1mSets a server's game rules[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/gc: [0;37;1mReports memory, uptime and tick info.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/geoip: [0;37;1mShows which country a player or IP originates from. Can be used on offline players.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/getpos: [0;37;1mGet your current coordinates or those of a player.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/give: [0;37;1mGive a player an item.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/god: [0;37;1mEnables your godly powers.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/halt-activity: [0;37;1mAttempts to cease as much activity in order to stop lag[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/hat: [0;37;1mGet some cool new headgear.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/heal: [0;37;1mHeals you or the given player.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/help: [0;37;1mViews a list of available commands.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/helpop: [0;37;1mMessage online admins.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/herochat: [0;37;1mRoot Herochat command[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/herochat:me: [0;37;1mSends emote messages[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/history: [0;37;1mDisplays the ban/mute/warning history of a player[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/holdsrv: [0;37;1mHolds the server.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/holograms: [0;37;1mMain command for HolographicDisplays.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/home: [0;37;1mTeleport to your home.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/ignore: [0;37;1mIgnore or unignore other players.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/info: [0;37;1mBlock information tool[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/invsee: [0;37;1mSee the inventory of other players.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/ipban: [0;37;1mBans an IP address.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/iphistory: [0;37;1mDisplays the login history of a player[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/ipreport: [0;37;1mChecks all online players for duplicate accounts.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/item: [0;37;1mSpawn an item.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/itemdb: [0;37;1mSearches for an item.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/itemrestrict: [0;37;1mMain command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/jails: [0;37;1mList all jails.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/jump: [0;37;1mJumps to the nearest block in the line of sight.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/jumpto: [0;37;1mTeleport to a location[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/kick: [0;37;1mKicks a specified player with a reason.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/kickall: [0;37;1mKicks all players off the server except the issuer.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/kickallhold: [0;37;1mKicks all players in the server on a server hold. Only works from the console.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/kickallstop: [0;37;1mKicks all players in the server on a wrapper shutdown. Only works from the console.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/kill: [0;37;1mKills specified player.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/kit: [0;37;1mObtains the specified kit or views all available kits.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/kittycannon: [0;37;1mThrow an exploding kitten at your opponent.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/lastuuid: [0;37;1mDisplays the last UUID of a player[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/lightning: [0;37;1mThe power of Thor. Strike at cursor or player.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/list: [0;37;1mList all online players.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/listchunks: [0;37;1mList chunks that your selection includes[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/litebans: [0;37;1mLiteBans management command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/litebans:ban: [0;37;1mBans a player or IP[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/litebans:kick: [0;37;1mKicks a player.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/litebans:mute: [0;37;1mMutes a player[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/litebans:tempban: [0;37;1mBans a player or IP temporarily[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/litebans:unban: [0;37;1mUnbans a player or IP[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/lockdown: [0;37;1mServer lockdown management command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/login: [0;37;1mLogin into a account[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/logout: [0;37;1mLogout[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/lrbuild: [0;37;1mLong-range building tool[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/mail: [0;37;1mManages inter-player, intra-server mail.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/market: [0;37;1mMarket commands[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/mask: [0;37;1mSet the brush mask[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/mat: [0;37;1mSet the brush material[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/me: [0;37;1mDescribes an action in the context of the player.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:achievement: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:ban: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:ban-ip: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:banlist: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:clear: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:defaultgamemode: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:deop: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:difficulty: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:effect: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:enchant: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:gamemode: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:gamerule: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:give: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:help: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:kick: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:kill: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:list: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:me: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:op: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:pardon: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:pardon-ip: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:playsound: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:say: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:scoreboard: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:seed: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:setidletimeout: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:setworldspawn: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:spawnpoint: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:spreadplayers: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:tell: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:testfor: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:time: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:toggledownfall: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:tp: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:weather: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:whitelist: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/minecraft:xp: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/more: [0;37;1mFills the item stack in hand to maximum size.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/motd: [0;37;1mViews the Message Of The Day.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/msg: [0;37;1mSends a private message to the specified player.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/multiworld: [0;37;1mall the commands[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/multiworld-shortcut: [0;37;1mshortcuts to multiworld commands[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/mute: [0;37;1mMutes or unmutes a player.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/mw: [0;37;1mall the commands[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/near: [0;37;1mLists the players near by or around a player.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/netstat: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/nick: [0;37;1mChange your nickname or that of another player.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/none: [0;37;1mUnbind a bound tool from your current item[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/nuke: [0;37;1mMay death rain upon them.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/op: [0;37;1mGives the specified player operator status[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/openender: [0;37;1mOpens the enderchest of a player[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/openinv: [0;37;1mOpen a player's inventory[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/packet: [0;37;1mAdd or remove a simple packet listener.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/pardon-ip: [0;37;1mAllows the specified IP address to use this server[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/passpartu: [0;37;1mcompare passpartu token[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/pay: [0;37;1mPays another player from your balance.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/pex: [0;37;1mProvides access to Permissions commands and information.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/ping: [0;37;1mPong![m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/playsound: [0;37;1mPlays a sound to a given player[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/plugman: [0;37;1mManage plugins.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/potion: [0;37;1mAdds custom potion effects to a potion.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/powertool: [0;37;1mAssigns a command to the item in hand.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/powertooltoggle: [0;37;1mEnables or disables all current powertools.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/promote: [0;37;1mPermission ladder promotion command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/protocol: [0;37;1mPerforms administrative tasks regarding ProtocolLib.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/prunehistory: [0;37;1mRemoves past ban/mute/warning history of a player[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/ptime: [0;37;1mAdjust player's client time. Add @ prefix to fix.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/pumpkins: [0;37;1mGenerate pumpkin patches[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/pvp: [0;37;1mChange your PvP Status.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/pvpmanager: [0;37;1mShows Main PvPManager Page.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/pvpoverride: [0;37;1mAllows the player to attack everyone everywhere[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/pweather: [0;37;1mAdjust a player's weather[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/r: [0;37;1mQuickly reply to the last player to message you.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/randomlocation: [0;37;1mOld command, directs player to new command[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/range: [0;37;1mSet the brush range[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/realname: [0;37;1mDisplays the username of a user based on nick.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/recipe: [0;37;1mDisplays how to craft items.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/region: [0;37;1mRegion management commands[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/register: [0;37;1mRegister an account[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/remotetoolkitplugin:kickall: [0;37;1mKicks all players in the server on a restart. Only works from the console.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/remove: [0;37;1mRemove all entities of a type[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/repair: [0;37;1mRepairs the durability of one or all items.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/repl: [0;37;1mBlock replacer tool[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/reschedulerestart: [0;37;1mReschedules the next restart time.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/restart: [0;37;1mRestarts the server[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/restartsrv: [0;37;1mRestarts the server.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/restore: [0;37;1mRestore the selection from a snapshot[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/rlt: [0;37;1mMain RandomLocationTelporter command[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/rtkunicodetest: [0;37;1mTest toolkit unicode support.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/rtping: [0;37;1mRequests a pong response from the plugin. (Console only)[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/rules: [0;37;1mViews the server rules.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/save-all: [0;37;1mSaves the server to disk[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/save-off: [0;37;1mDisables server autosaving[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/save-on: [0;37;1mEnables server autosaving[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/say: [0;37;1mBroadcasts the given message as the sender[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/scoreboard: [0;37;1mScoreboard control[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/searchinv: [0;37;1mSearch and list players having a specific item[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/seed: [0;37;1mShows the world seed[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/seen: [0;37;1mShows the last logout time of a player.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/sell: [0;37;1mSells the item currently in your hand.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/setblock: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/sethome: [0;37;1mSet your home to your current location.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/setidletimeout: [0;37;1mSets the server's idle timeout[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/setjail: [0;37;1mCreates a jail where you specified named [jailname].[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/setspawn: [0;37;1mSet the spawnpoint to your current position.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/setwarp: [0;37;1mCreates a new warp.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/setworldspawn: [0;37;1mSets a worlds's spawn point. If no coordinates are specified, the player's coordinates will be used.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/setworth: [0;37;1mSet the sell value of an item.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/silentchest: [0;37;1mToggle silent chest function, which hides the animation of a chest when opened or closed, and suppresses the sound.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/size: [0;37;1mSet the brush size[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/skin: [0;37;1mSets your skin.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/skinsrestorer: [0;37;1mAdmin commands.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/skull: [0;37;1mSet the owner of a player skull[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/snapshot: [0;37;1mSnapshot commands[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/socialspy: [0;37;1mToggles if you can see msg/mail commands in chat.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/spawn: [0;37;1mTeleport to the spawnpoint.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/spawner: [0;37;1mChange the mob type of a spawner.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/spawnmob: [0;37;1mSpawns a mob.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/spawnpoint: [0;37;1mSets a player's spawn point[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/speed: [0;37;1mChange your speed limits.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/spreadplayers: [0;37;1mSpreads players around a point[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/sr: [0;37;1mThe main command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/staffhistory: [0;37;1mDisplays bans/mutes/warnings placed by a player[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/staffrollback: [0;37;1mRollbacks bans/mutes/warnings placed by a player, with an optional duration.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/stop: [0;37;1mStops the server with optional reason[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/stopfire: [0;37;1m[<world>] - Disables all fire spread temporarily[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/stopwrapper: [0;37;1mStop both the server and the Toolkit.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/sudo: [0;37;1mMake another user perform a command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/suicide: [0;37;1mCauses you to perish.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/summon: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/superpickaxe: [0;37;1mSelect super pickaxe mode[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/tellraw: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/tempban: [0;37;1mTemporary ban a user.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/tempmute: [0;37;1mMutes a player or IP temporarily[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/testfor: [0;37;1mTests whether a specifed player is online[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/testforblock: [0;37;1mA Mojang provided command.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/thermos: [0;37;1m[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/thru: [0;37;1mPassthrough walls[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/thunder: [0;37;1mEnable/disable thunder.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/time: [0;37;1mDisplay/Change the world time. Defaults to current world.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/timings: [0;37;1mManages Spigot Timings data to see performance of the server.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/togglechat: [0;37;1mToggles chat.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/toggledownfall: [0;37;1mToggles rain on/off on a given world[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/toggleeditwand: [0;37;1mToggle functionality of the edit wand[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/togglejail: [0;37;1mJails/Unjails a player, TPs them to the jail specified.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/toggleopeninv: [0;37;1mToggle item openinv function[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/tool: [0;37;1mSelect a tool to bind[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/top: [0;37;1mTeleport to the highest block at your current position.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/tp: [0;37;1mTeleport to a player.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/tpa: [0;37;1mRequest to teleport to the specified player.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/tpaall: [0;37;1mRequests all players online to teleport to you.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/tpaccept: [0;37;1mAccepts a teleport request.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/tpahere: [0;37;1mRequest that the specified player teleport to you.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/tpall: [0;37;1mTeleport all online players to another player.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/tpdeny: [0;37;1mReject a teleport request.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/tphere: [0;37;1mTeleport a player to you.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/tpo: [0;37;1mTeleport override for tptoggle.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/tpohere: [0;37;1mTeleport here override for tptoggle.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/tppos: [0;37;1mTeleport to coordinates.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/tps: [0;37;1mGets the current ticks per second for the server[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/tptoggle: [0;37;1mBlocks all forms of teleportation.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/tree: [0;37;1mTree generator tool[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/unban: [0;37;1mUnbans the specified player.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/unbanip: [0;37;1mUnbans the specified IP address.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/unlimited: [0;37;1mAllows the unlimited placing of items.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/unmute: [0;37;1mUnmutes a player[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/unregister: [0;37;1munregister your account[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/unstuck: [0;37;1mEscape from being stuck inside a block[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/unwarn: [0;37;1mRemoves the last active warning for a player[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/up: [0;37;1mGo upwards some distance[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/vanish: [0;37;1mHide yourself from other players.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/vault-convert: [0;37;1mConverts all data in economy1 and dumps it into economy2[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/vault-info: [0;37;1mDisplays information about Vault[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/votelinks: [0;37;1mShows list of voting sites.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/voteroulette: [0;37;1mAccess to VoteRoulette commands.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/warn: [0;37;1mWarns a player[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/warnings: [0;37;1mDisplays active warnings for a player[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/warp: [0;37;1mList all warps or warp to the specified location.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/wborder: [0;37;1mPrimary command for WorldBorder.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/we: [0;37;1mWorldEdit commands[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/weather: [0;37;1mSets the weather.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/whitelist: [0;37;1mManages the list of players allowed to use this server[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/whois: [0;37;1mDetermine the username behind a nickname.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/workbench: [0;37;1mOpens up a workbench.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/world: [0;37;1mSwitch between worlds.[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/worldguard: [0;37;1mWorldGuard commands[m
+[21:21:58] [Server thread/INFO] [/]: [0;33;22m/worth: [0;37;1mCalculates the worth of items in hand or as specified.[m
+[21:22:02] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.[m
+[21:22:04] [Server thread/INFO] [/]: [0;33;22m__________.[ [0;32;22mHelp for command "f"[0;33;22m 1/2[0;33;22m ]._____________[m
+[21:22:04] [Server thread/INFO] [/]: [0;33;22m#[0;33;1m This command contains all faction stuff.[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;36;1m?,h,help[0;36;22m [page=1] [0;33;1m[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;36;1ml,list[0;36;22m [page=1] [0;33;1mlist all factions[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;36;1mf,faction[0;36;22m [faction=you] [0;33;1mshow faction information[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;36;1mp,player[0;36;22m [player=you] [0;33;1mshow player information[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;36;1mjoin[0;36;22m <faction> [player=you] [0;33;1mjoin faction[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1mleave [0;33;1mleave your faction[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1mhome [0;33;1mteleport to faction home[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1mmap[0;36;22m [on/off=once] [0;33;1mshow territory map[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;36;1mcreate[0;36;22m <name> [0;33;1mcreate new faction[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1mname[0;36;22m <new name> [0;33;1mset faction name[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1mdesc[0;36;22m <desc> [0;33;1mchange faction description[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1msethome[0;36;22m [faction=you] [0;33;1mset the faction home[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1mopen[0;36;22m [yes/no=toggle] [0;33;1mset if invitation is required to join[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1minv,invite[0;36;22m <player> [yes/no=toggle] [0;33;1mset if player is invited[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;36;1mkick[0;36;22m <player> [0;33;1mkick player from faction[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1mtitle[0;36;22m <player> [title=] [0;33;1mset player title[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;36;1mpromote[0;36;22m <player> [0;33;1mpromote lesser members in your faction[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;36;1mdemote[0;36;22m <player> [0;33;1mdemote lesser members in your faction[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;36;1mofficer[0;36;22m <player> [0;33;1mmake player officer[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;36;1mleader[0;36;22m <player> [faction=you] [0;33;1mset leader for faction[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;36;1mmoney [0;33;1mmanage faction money[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1msc,seechunk [0;33;1msee the chunk you stand in[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1mclaim[0;36;22m [radius=1] [faction=you] [0;33;1mclaim land where you stand[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1mautoclaim[0;36;22m [faction=you] [0;33;1mautoclaim when walking[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1munclaim [0;33;1munclaim land where you stand[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1munclaimall [0;33;1munclaim all land[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1maccess [0;33;1mmanage access[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1mally[0;36;22m <faction> [0;33;1mset relation wish to another faction[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1mtruce[0;36;22m <faction> [0;33;1mset relation wish to another faction[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1mneutral[0;36;22m <faction> [0;33;1mset relation wish to another faction[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1menemy[0;36;22m <faction> [0;33;1mset relation wish to another faction[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;36;1mperm[0;36;22m [faction=you] [perm=all] [relation=read] [yes/no=read] [0;33;1mchange faction permissions[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;36;1mflag[0;36;22m [faction=you] [flag=all] [yes/no=read] [0;33;1mmanage faction flags[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;36;1mdisband[0;36;22m [faction=you] [0;33;1mdisband faction[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;36;1madmin[0;36;22m [on/off=flip] [0;33;1menable adminmode[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;36;1mpowerboost[0;36;22m <p|f|player|faction> <name> <#> [0;33;1mset powerboost[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;36;1mv,version [0;33;1mdisplay plugin version[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1mcreatewarp,addwarp,setwarp[0;36;22m <name> [password=] [0;33;1mcreate a faction warp, can be specified with a password[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1mremovewarp,deletewarp,unsetwarp[0;36;22m <name> [0;33;1mremove a warp[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1mwarp[0;36;22m <name> [password=string] [faction=string] [0;33;1mteleport to a warp[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1mlistwarps[0;36;22m [faction=string] [0;33;1mlist warps in a faction[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1msetjail [0;33;1msets the faction jail[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1munsetjail,removejail [0;33;1mremoves the Jail location[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1mjail[0;36;22m <player> [0;33;1msend a player to jail[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1munjail[0;36;22m <player> [0;33;1mremoves a player from jail[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1mannounce[0;36;22m <message> [0;33;1msends an announcment to your Faction[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1mtoggle,togglestate,tog[0;36;22m [faction=yours] [0;33;1mchanges the faction between peaceful and normal[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1mneed [0;33;1mannounces to Faction Leaders, and Officers that you're in need of a faction.[m
+[21:22:04] [Server thread/INFO] [/]: [0;36;1m/[0;36;1mf [0;31;1mchest[0;36;22m [set=looking] [0;33;1mopen or set your factions chest[m
+[21:22:12] [Server thread/INFO] [/]: [0;33;22m________.[ [0;32;22mPlugin Version & Information[0;33;22m ].___________[m
+[21:22:12] [Server thread/INFO] [/]: [0;35;1mName: [0;36;1mFactions[m
+[21:22:12] [Server thread/INFO] [/]: [0;35;1mVersion: [0;36;1m2.5.0[m
+[21:22:12] [Server thread/INFO] [/]: [0;35;1mWebsite: [0;36;1mhttp://massivecraft.com/factions[m
+[21:22:12] [Server thread/INFO] [/]: [0;35;1mAuthors: [0;36;1m[0;36;1m[0;36;1mCayorion [0;33;1mand [0;36;1mBrettflan[m
+[21:22:12] [Server thread/INFO] [/]: [0;35;1mDescription: [0;36;1m[0;33;1m[0;33;1mFactions allows the players to team up and claim land as their own and start wars with other factions. This way we hope to inspire politics, intrigue, and team spirit. [0;32;1mCayorion [0;33;1mfrom the minecraft server [0;32;1mMassiveCraft [0;33;1mis the lead Factions programmer. Feel free to visit us at [0;36;1mhttp://massivecraft.com[m
+[21:25:02] [Server thread/INFO] [/]: CONSOLE: Stopping the server..[m
+[21:25:02] [Server thread/INFO] [plus.crates.CratesPlus/]: [CratesPlus] Disabling CratesPlus v4.1.1
+[21:25:02] [Server thread/INFO] [me.NoChance.PvPManager.PvPManager/]: [PvPManager] Disabling PvPManager v2.4.4.2
+[21:25:02] [Server thread/INFO] [markehme.factionsplus.FactionsPlus/]: [FactionsPlus] Disabling FactionsPlus v0.7.1
+[21:25:02] [Server thread/INFO] [/]: [0;33;22m[FactionsPlus] [mDisabled successfuly.[m
+[21:25:02] [Server thread/INFO] [com.survivorserver.GlobalMarket.Market/]: [GlobalMarket] Disabling GlobalMarket v1.3.0-12
+[21:25:02] [Server thread/INFO] [com.survivorserver.GlobalMarket.Market/]: [GlobalMarket] #### DB Queue started ####
+[21:25:02] [Server thread/INFO] [com.survivorserver.GlobalMarket.Market/]: [GlobalMarket] Processing database queue (size: 0)
+[21:25:02] [Server thread/INFO] [com.survivorserver.GlobalMarket.Market/]: [GlobalMarket] Queue done. Processed 0 items
+[21:25:02] [Server thread/INFO] [com.survivorserver.GlobalMarket.Market/]: [GlobalMarket] #### DB Queue finished (took 0 sec) ####
+[21:25:02] [Server thread/INFO] [com.massivecraft.factions.Factions/]: [Factions] Disabling Factions v2.5.0
+[21:25:02] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mFactions 2.5.0[0;36;22m] [0;33;1mDisabled[m
+[21:25:02] [Server thread/INFO] [me.markeh.massivecoreforgefixes.MassiveCoreForgeFixes/]: [MassiveCoreForgeFixes] Disabling MassiveCoreForgeFixes v1.0.0
+[21:25:02] [Server thread/INFO] [litebans.ab/]: [LiteBans] Disabling LiteBans v1.9.17
+[21:25:02] [Server thread/INFO] [litebans.ab/]: [LiteBans] v1.9.17 disabled.
+[21:25:02] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] Disabling HolographicDisplays v2.1.12
+[21:25:02] [Server thread/INFO] [fr.xephi.authme.AuthMe/]: [AuthMe] Disabling AuthMe v3.4
+[21:25:02] [Server thread/INFO] [com.dthielke.herochat.Herochat/]: [Herochat] Disabling Herochat v5.6.7-SNAPSHOT
+[21:25:02] [Server thread/INFO] [Minecraft/]: [Herochat] Saving channels
+[21:25:02] [Server thread/INFO] [Minecraft/]: [Herochat] Save complete
+[21:25:02] [Server thread/INFO] [Minecraft/]: [Herochat] Version 5.6.7-SNAPSHOT is disabled.
+[21:25:02] [Server thread/INFO] [com.github.games647.fastlogin.bukkit.FastLoginBukkit/]: [FastLogin] Disabling FastLogin v1.7
+[21:25:03] [Server thread/INFO] [com.massivecraft.massivecore.MassiveCore/]: [MassiveCore] Disabling MassiveCore v7.3.0
+[21:25:03] [Server thread/INFO] [/]: [0;36;22m[[0;36;1mMassiveCore 7.3.0[0;36;22m] [0;33;1mDisabled[m
+[21:25:03] [Server thread/INFO] [net.craftersland.itemrestrict.ItemRestrict/]: [ItemRestrict] Disabling ItemRestrict v2.2.4
+[21:25:03] [Server thread/INFO] [net.craftersland.itemrestrict.ItemRestrict/]: [ItemRestrict] ItemRestrict has been disabled.
+[21:25:03] [Server thread/INFO] [com.earth2me.essentials.spawn.EssentialsSpawn/]: [EssentialsSpawn] Disabling EssentialsSpawn vPre2.14.1.3
+[21:25:03] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Disabling Vault v1.2.31-b411
+[21:25:03] [Server thread/INFO] [ru.tehkode.permissions.bukkit.PermissionsEx/]: [PermissionsEx] Disabling PermissionsEx v1.22.9
+[21:25:03] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager/]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[21:25:03] [Server thread/INFO] [net.craftersland.pb.spawn.SR/]: [PB-SpawnRestrictions] Disabling PB-SpawnRestrictions v1.0.1
+[21:25:03] [Server thread/INFO] [Essentials/]: Essentials: Using config file enhanced permissions.
+[21:25:03] [Server thread/INFO] [Essentials/]: Permissions listed in as player-commands will be given to all users.
+[21:25:03] [Server thread/INFO] [net.craftersland.pb.spawn.SR/]: [PB-SpawnRestrictions] PB-SpawnRestrictions is disabled!
+[21:25:03] [Server thread/INFO] [skinsrestorer.bukkit.SkinsRestorer/]: [SkinsRestorer] Disabling SkinsRestorer v12.5.1
+[21:25:03] [Server thread/INFO] [multiworld.MultiWorldPlugin/]: [MultiWorld] Disabling MultiWorld v5.2.8
+[21:25:03] [Server thread/INFO] [multiworld.MultiWorldPlugin/]: [MultiWorld] Disabled.
+[21:25:03] [Server thread/INFO] [com.pqqqqq.directsupport.bukkit.DirectSupportPlugin/]: [DirectSupport] Disabling DirectSupport v1.04c
+[21:25:03] [Server thread/INFO] [Minecraft/]: [DirectSupport 1.04c]: Disabled
+[21:25:03] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldGuardPlugin/]: [WorldGuard] Disabling WorldGuard v6.0.0-beta-02
+[21:25:03] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldGuardPlugin/]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[21:25:03] [Server thread/INFO] [com.comphenix.protocol.ProtocolLibrary/]: [ProtocolLib] Disabling ProtocolLib v3.6.4
+[21:25:03] [Server thread/INFO] [com.vexsoftware.votifier.Votifier/]: [Votifier] Disabling Votifier v1.9
+[21:25:03] [Server thread/INFO] [Votifier/]: [Votifier] Votifier disabled.
+[21:25:03] [Server thread/INFO] [com.wimbli.WorldBorder.WorldBorder/]: [WorldBorder] Disabling WorldBorder v1.8.1
+[21:25:03] [Thread-13/WARN] [Votifier/]: [Votifier] Protocol error. Ignoring packet - Socket closed
+[21:25:03] [Server thread/INFO] [com.wimbli.WorldBorder.WorldBorder/]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
+[21:25:03] [Server thread/INFO] [net.craftersland.creativetag.CreativeTag/]: [CreativeItemTag] Disabling CreativeItemTag v1.0
+[21:25:03] [Server thread/INFO] [net.craftersland.creativetag.CreativeTag/]: [CreativeItemTag] CreativeItemTag has been disabled.
+[21:25:03] [Server thread/INFO] [net.buycraft.Plugin/]: [Buycraft] Disabling Buycraft v6.7
+[21:25:03] [Server thread/INFO] [net.buycraft.Plugin/]: [Buycraft] Plugin has been disabled.
+[21:25:03] [Server thread/INFO] [com.rylinaux.plugman.PlugMan/]: [PlugMan] Disabling PlugMan v2.1.1
+[21:25:03] [Server thread/INFO] [com.TeamNovus.AutoMessage.AutoMessage/]: [AutoMessage] Disabling AutoMessage v2.4.0
+[21:25:03] [Server thread/INFO] [net.craftersland.myiume.randomlocation.RandomLocation/]: [RandomLocationTeleporter] Disabling RandomLocationTeleporter v4.0.4
+[21:25:03] [Server thread/INFO] [com.chaseoes.voidworld.VoidWorld/]: [VoidWorld] Disabling VoidWorld v1.0
+[21:25:03] [Server thread/INFO] [co.ryred.mcrkit.bukkit.plugin.RTKPlugin/]: [RemoteToolkitPlugin] Disabling RemoteToolkitPlugin v1.0-SNAPSHOT
+[21:25:03] [Server thread/INFO] [co.ryred.mcrkit.bukkit.plugin.RTKPlugin/]: [RemoteToolkitPlugin] Remote Toolkit Plugin 1.0-SNAPSHOT disabled!
+[21:25:03] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Disabling Essentials vPre2.14.1.3
+[21:25:03] [Server thread/INFO] [com.lishid.openinv.OpenInv/]: [OpenInv] Disabling OpenInv v2.2.5
+[21:25:03] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Disabling WorldEdit v5.6.3
+[21:25:03] [Server thread/INFO] [com.mythicacraft.voteroulette.VoteRoulette/]: [VoteRoulette] Disabling VoteRoulette v2.3.4
+[21:25:03] [Server thread/INFO] [VoteRoulette/]: [VoteRoulette] Disabled!
+[21:25:03] [Server thread/INFO] [me.markeh.factions26patches.Factions26Patches/]: [Factions26Patches] Disabling Factions26Patches v1.0.0
+[21:25:03] [Server thread/INFO] [net.coreprotect.CoreProtect/]: [CoreProtect] Disabling CoreProtect v2.10.0
+[21:25:03] [Server thread/INFO] [FML/]: Unloading dimension 0
+[21:25:03] [Server thread/INFO] [FML/]: Unloading dimension -1
+[21:25:03] [Server thread/INFO] [FML/]: Unloading dimension 1
+[21:25:03] [Server thread/INFO] [FML/]: Unloading dimension 2
+[21:25:03] [Server thread/INFO] [FML/]: Applying holder lookups
+[21:25:03] [Server thread/INFO] [FML/]: Holder lookups applied

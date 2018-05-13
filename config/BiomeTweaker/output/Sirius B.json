@@ -1,0 +1,52 @@
+
+{
+  "ID": 226,
+  "Name": "Sirius B",
+  "Class": "stevekung.mods.moreplanets.planets.siriusb.worldgen.BiomeGenBaseSiriusB",
+  "Color": -16744448,
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "minecraft:grass",
+  "Filler Block": "minecraft:dirt",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 0.5,
+  "Humidity": 0.0,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "HOT",
+    "SPARSE",
+    "DRY",
+    "SPOOKY",
+    "DEAD"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "stevekung.mods.moreplanets.planets.siriusb.entities.EntitySiriusBlaze",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "stevekung.mods.moreplanets.planets.siriusb.entities.EntitySiriusCreeper",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "stevekung.mods.moreplanets.planets.siriusb.entities.EntitySiriusMagmaCube",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false
+}

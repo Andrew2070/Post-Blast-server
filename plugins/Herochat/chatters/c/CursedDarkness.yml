@@ -1,0 +1,9 @@
+name: CursedDarkness
+activeChannel: Global
+channels:
+- Global
+ignores:
+- vaske99
+- th3fanbus\
+muted: false
+autojoin: false

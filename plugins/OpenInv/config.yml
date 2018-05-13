@@ -1,0 +1,13 @@
+ItemOpenInvItemID: 280
+CheckForUpdates: false
+NotifySilentChest: true
+NotifyAnyChest: true
+config-version: 2
+notify:
+  any-chest: true
+  silent-chest: true
+items:
+  open-inv: STICK
+SilentChest:
+  andrew2070:
+    toggle: true

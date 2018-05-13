@@ -1,0 +1,9 @@
+name: Jay
+activeChannel: Global
+channels:
+- Global
+- Faction
+- Local
+ignores: []
+muted: false
+autojoin: false

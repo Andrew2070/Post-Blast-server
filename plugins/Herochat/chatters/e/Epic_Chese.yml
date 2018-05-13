@@ -1,0 +1,7 @@
+name: Epic_Chese
+activeChannel: Global
+channels:
+- Global
+ignores: []
+muted: false
+autojoin: false

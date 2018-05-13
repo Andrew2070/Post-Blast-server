@@ -1,0 +1,106 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name Sikorsky MH-60G Pave Hawk
+ShortName MH-60G
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon IconMH60G
+Model usafmw.mh60g
+Texture MH60G
+//Third Person Camera Distance
+CameraDistance 18.0
+//Resting Pitch. Set this so the plane spawns level. It will fall onto its collision boxes automatically, but this lets you start it flat
+RestingPitch 0.0
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
+Mode Heli
+//Throttle
+MaxThrottle 3.5
+MaxNegativeThrottle 0.0
+//Yaw modifiers
+TurnLeftSpeed 1.25
+TurnRightSpeed 1.25
+//Pitch modifiers
+LookUpSpeed 1.25
+LookDownSpeed 1.25
+//Roll modifiers
+RollLeftSpeed 1.25
+RollRightSpeed 1.25
+//Drag 1.0 is standard. Modify to make the plane / heli more or less sluggish
+Drag 1.0
+//Lift
+//Lift 2.5
+//Wheels (Fake wheels imitating skids)
+NumWheels 0
+WheelSpringStrength 0.125
+//Propeller <ID> <x> <y> <z> <planePart> <recipeItem>
+//Propeller Positions
+HeliPropeller 0 1 -50 -0,5 blades metalPropeller
+HeliPropeller 1 135 -49 -2 blades metalPropeller
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary None
+Secondary None
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 0
+ShootDelaySecondary 0
+//Whether to alternate or fire all together
+AlternatePrimary False
+AlternateSecondary False
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+//ShootPointPrimary -13 7 -53 rightWing
+//ShootPointPrimary -13 7 53 leftWing
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 10
+BombSlots 0
+MissileSlots 8
+AllowAllAmmo False
+AddAmmo mk4Rocket
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 5000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+//Driver and Passengers
+Pilot 49 13 13
+Passengers 9
+Passenger 1 49 13 -13 core
+Passenger 2 -14 12 -17 core
+Passenger 3 -14 12 -6 core
+Passenger 4 -14 12 5 core
+Passenger 5 -14 12 16 core
+Passenger 6 30 12 -10 core -160 -60 -45 45 minigun PassengerGun6
+GunOrigin 6 -30 -21 -27
+Passenger 7 30 12 11 core 60 160 -45 45 minigun PassengerGun7
+GunOrigin 7 -30 -21 27
+Passenger 8 0 0 0 core
+RotatedPassengerOffset 8 -8 4 19
+Passenger 9 0 0 0 core
+RotatedPassengerOffset 9 -8 4 -20
+// ------------------------------------------------------ Sounds ------------------------------------------------------
+StartSound HelicopterStart
+StartSoundLength 100
+PropSound heloB
+PropSoundLength 30
+//ShootSoundPrimary RocketFire1
+//ShootSoundSecondary None
+// ------------------------------------------------------ Recipe ------------------------------------------------------
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts core 3 passengerBay
+AddRecipeParts nose 1 advancedMetalCockpit
+AddRecipeParts coreWheel 4 wheel
+AddRecipeParts blades 6 helicopterBlade
+AddRecipeParts tail 1 metalTail
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 16 green
+// ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
+SetupPart core 100 -59 -1 -21 165 45 44
+SetupPart nose 100 110 -1 -21 30 15 44
+SetupPart tail 100 -137 1 -37 78 63 77
+SetupPart leftWing 100 -22 30 21 57 48 132
+SetupPart rightWing 100 -22 30 -152 57 48 132
+SetupPart tailWheel 100 -106 -10 -3 7 14 8
+SetupPart leftWingWheel 100 55 -10 23 15 15 14
+SetupPart rightWingWheel 100 55 -10 -35 15 15 14
+BulletDetection 24

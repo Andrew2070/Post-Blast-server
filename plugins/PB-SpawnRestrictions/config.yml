@@ -1,0 +1,18 @@
+# default config.yml for PB-SpawnRestrictions
+# config version 1.0.0
+     
+
+#Plugin settings, changes here require a server restart!
+Settings:
+    #Enable particle effect.
+    SpawnWorld: SpawnWorld
+    
+
+#Chat messages with color and format codes support.
+#Minecraft Color and Format Codes: http://minecraft.gamepedia.com/Formatting_codes    
+ChatMessages:
+    NoPermission: '&c[Server] &cYou don''t have permission!'
+    CmdHelp: '&c[Server] &cAvailable commands:&6 /sr reload'
+    CmdReload: '&c[Server] &aConfig reload complete!'
+    InteractionRestricted: '&c[Server] &cItem usage is not allowed at spawn!'
+    SignInteraction: '&c[Server] &eEmpty your hand to click the sign!'

@@ -1,0 +1,102 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name Northrop/McDonnell Douglas YF-23 Black Widow II
+ShortName YF-23
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon IconYF23
+Model usafmw.yf23
+Texture YF23
+//Third Person Camera Distance
+CameraDistance 20.0
+//Resting Pitch. Set this so the plane spawns level. It will fall onto its collision boxes automatically, but this lets you start it flat
+RestingPitch 0.0
+HasGear True
+ModelScale 1
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
+Mode Plane
+//Throttle
+MaxThrottle 8.0
+MaxNegativeThrottle 0.0
+//Yaw modifiers
+TurnLeftSpeed 3
+TurnRightSpeed 3
+//Pitch modifiers
+LookUpSpeed 3
+LookDownSpeed 3
+//Roll modifiers
+RollLeftSpeed 3
+RollRightSpeed 3
+//Drag 1.0 is standard. Modify to make the plane / heli more or less sluggish
+Drag 1.0
+//Lift
+//Lift 2.5
+//Wheels
+NumWheels 0
+WheelSpringStrength 0.125
+//Propeller <ID> <x> <y> <z> <planePart> <recipeItem>
+Propeller 0 54 0 0 core metalPropeller
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Gun
+Secondary Missile
+//Time between shots in 1/20ths of seconds
+ShootDelayPrimary 2
+ShootDelaySecondary 20
+//Whether to alternate or fire all together
+AlternatePrimary False
+AlternateSecondary False
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary 60 3 -5 nose m60
+ShootPointPrimary 60 3 5 nose m60
+ShootPointSecondary -60 16 -58 leftWing
+ShootPointSecondary -60 16 58 rightWing
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 0
+BombSlots 0
+MissileSlots 8
+AllowAllAmmo False
+AddAmmo mk4Rocket
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 6000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Pilot 40 11 0
+Passengers 0
+// ------------------------------------------------------ Sounds ------------------------------------------------------
+StartSound PlaneA
+StartSoundLength 60
+PropSound PlaneA
+PropSoundLength 47
+ShootSoundPrimary M60Shoot
+ShootSoundSecondary RocketFire2
+// ------------------------------------------------------ Recipe ------------------------------------------------------
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts core 1 advancedMetalCockpit
+AddRecipeParts coreWheel 2 wheel
+AddRecipeParts nose 1 metalNose
+AddRecipeParts rightWing 1 metalWingSmall
+AddRecipeParts leftWing 1 metalWingSmall
+AddRecipeParts tail 1 metalTail
+AddRecipeParts rightWingWheel 1 wheel
+AddRecipeParts leftWingWheel 1 wheel
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 5 white
+AddDye 1 gray
+// ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
+SetupPart coreWheel 100 52 -10 -7 21 25 13
+SetupPart rightWingWheel 100 -63 -10 -26 26 26 15
+SetupPart leftWingWheel 100 -63 -10 11 26 25 15
+SetupPart leftWing 100 -97 28 24 106 8 85
+SetupPart rightWing 100 -97 29 -109 105 7 85
+SetupPart tail 100 -152 14 -93 107 72 177
+SetupPart core 100 -45 14 -33 148 38 65
+SetupPart nose 100 103 15 -11 54 23 21
+
+BulletDetection 10
+
+
+//Collison Points
